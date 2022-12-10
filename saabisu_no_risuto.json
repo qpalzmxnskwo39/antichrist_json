@@ -1,63 +1,106 @@
 {
-
-      "380":{
+      "373":{
         "mix":[{
-                    "url": "https://alphasms.ua/ajax/register/",
-                    "headers":[{"User-Agent":" ",  "Accept":"*/*", "Accept-Language":"en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
-                    "data": "phone=%number%&password=%password%&captcha=XUzWAaxyWF6PKRmksifuTTL19-fJmGdvH-2Af2NNrkkSfoti03fQiS2uaOFpAdVbaja5aATdB7QXrcInNUUlr4v58k-3FJahknDTQjmmHYXViZLd2ZS9fpDWNirqnIArtLPKYtSdqpRDNkibffZ1MNLDArur-_qkxYLdOlnEh2UDqZ-svznUnOVuRTrKUisSzlv-4D3lRcSmzhjurdk6HXmVR_uDkUkBQNgxjm8DGzdA-aZRjP9A28mcT-PXdHRehDljBVzA0Ef31qyKatFGSJwEVGTtDPgtmyJ-Rv2K3VGwD-ZksJbyUVIAfPi5UKtnzAwM98l_cuiGtOTIqRJ4DjC8_Ff1lS-2FH_uCNd1AkkKD9cO8id0tt-sUU5BHL_VCktK-juSExtYSqwDkTDmu9sENTOrzfXSfwdnKTLDpRovtbz_uIifUXLc5yEC9wFbeD-kTWlxtp16QAsPHEZfCWB8DFrJQGHAHkDJcJQ2D-jSvV_dKlHD8kwE-&name=%name%&company=%name%&email=%email%&promocode=",
-                    "method":"post",
-                    "ins":"+************"
-                  },
-                  {
-                    "url":"https://www.banki.ru/ng/api/v1.0/public/auth/send-otp/",
-                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8"}],
-                    "data":"phone=%number%&isRulesAccepted=true&isAdAccepted=true&captchaValueV3=03AEkXODB1EDVsw0ab0J31bp2lMTIBo-0KcQzTIkumFHrpOJi-5WmbfozGdIimc0tVje6Wap7zOtjH1qVowlCI6pKs_U6B2I3L2n__84g9EsBVzhk3tbMeA2Nu99ZuL7CNZ5DbgehGVllj740Wz0Rx_sQFighVuaVxx90izdMT1VkypsRicoKz3lp7Imcb3srJLoX6od_b19bMsMstIQ8Fj24MJM9s3wiFxp3m9HzRf33NpNiQCww_W6UtMU0332sHi0iMkqpXSm2BWYaHhVkPQ0LN1HSCm2Ap4ffEWpPho_0T7DZel_SDpViEoi43LIfyh3p37qzmCj7Ly8BA_V-jVU68R_EfXhi6zhpa6Y406TBjlt2S6kW9rc5rFH2884l_VVEy9BWTzyeIJofs9fid5AqMWejKPxo3eGsnJI6LJix3IS8iN2-rTN7ogosG5CdIlQis7oDM49mKD0YcSlW_PoIi6r8GA_2rjFrOZd7z0WZ33Hu0q-byfyPWcp39JB535A7bxt7wpBRk",
-                    "method":"post",
-                    "ins":"+************"
-                  },
-                  {
-                    "url":"https://allo.ua/ua/customer/account/createPostVue/?isAjax=1&currentLocale=uk_UA",
-                    "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "X-Requested-With":"XMLHttpRequest", "Content-Type":"application/x-www-form-urlencoded", "X-USE-NUXT":1, "stackTrace":"You can check it in Chrome or Safari"}],
-                    "data":"firstname=%name%&telephone=%number%&email=%email%&password=%password%&form_key=dJJytWKMbtdJBb5K",
-                    "method":"post",
-                    "ins":"##**********"
-                  },
-                  {
-                     "url":"https://my.telegram.org/auth/send_password",
-                     "headers":[{"User-Agent":" ",  "DNT":"1"}],
-                     "data":"phone=%number%",
-                     "method":"post",
-                     "ins":"+************"
-                   },
-
-                   {
-                    "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
-                    "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
-                    "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+380","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
-                    "method":"post",
-                    "ins": "###*********"
-                   },
-
-                   {
-                     "url":"https://friction.olxgroup.com/challenge",
-                     "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-User-Tests":"e30="}],
-                     "json": {"actor":{"username":"%number%"},"action":"register","aud":"atlas","scene":{"origin":"www.olx.ua"}},
-                     "method": "post",
-                     "ins":"+************"
-                   },
-
-                   {
-                     "url":"https://skorozvon.ru/main",
-                     "headers":[{"User-Agent": " "}],
-                     "params":{"phone":"%number%"},
-                     "method":"get",
-                     "ins":"************"
-
-                   }],
+                      "url":"https://eshop.moldcell.md/index.php?route=account/account/RealPhoneValidation",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"real_phone=%number%",
+                      "method":"post",
+                      "ins": "###*********"
+                    },
+                    {
+                      "url":"https://eshop.moldcell.md/index.php?route=account/account/RealPhoneValidation",
+                      "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type": "aplication/json", "X-Requested-With":"XMLHttpRequest"}],
+                      "json":{"msisdn":"%number%"},
+                      "method":"post",
+                      "ins": "###*********"
+                    }],
+        "calls":[ ],
+        "sms":[{
+                      "url":"https://eshop.moldcell.md/index.php?route=account/account/RealPhoneValidation",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"real_phone=%number%",
+                      "method":"post",
+                      "ins": "###*********"
+                    },
+                    {
+                      "url":"https://eshop.moldcell.md/index.php?route=account/account/RealPhoneValidation",
+                      "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type": "aplication/json", "X-Requested-With":"XMLHttpRequest"}],
+                      "json":{"msisdn":"%number%"},
+                      "method":"post",
+                      "ins": "###*********"
+              }]
+      },
+      "380":{
+        "mix":[ ],
 
         "calls":[],
 
         "sms":[{
+                    "url":"https://la.ua/kharkiv/wp-admin/admin-ajax.php?lang=uk",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                    "data":"action=user_login&formData=tel=%number%&code=&nonce=dfd2d94f0e",
+                    "method":"post",
+                    "ins":"+**(***)***-**-**"
+                  },
+                  {
+                    "url":"https://smaki-maki.com/wp-admin/admin-ajax.php",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                    "data":"name=%D0%9C%D0%B0%D1%80%D0%B3%D0%BE&phone=%number%&birthday=04.01.1970&password=%password%&password2=%re_password%&code=&action=register_user",
+                    "method":"post",
+                    "ins":"+** (***) *** ** **"
+                  },
+                  {
+                    "url":"https://prontopizza.ua/lviv/wp-admin/admin-ajax.php",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                    "data":"first_name=%re_ru_name%&last_name=%ru_name%&phone=%number%&input_check_send_sms=&email=%email%&password=%password%&password2=%re_password%&agree=on&action=register_user",
+                    "method":"post",
+                    "ins":"+** (***) *** ** **"
+                  },
+                  {
+                    "url":"https://x100ecommerce-api-customers.azurewebsites.net/v1/SendCode",
+                    "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json", "x-recaptcha-token":"03AEkXODD3ziQqQ-h50nRoP8gcCjljdqX5amKtihMTahb1PR6JqfNSr4aUwTcAb0pBXlRJxxXSDVnAPnetmuErYzRN9tI_PSxirkrKPcepb41KyMh42A0eTYVi8aMTrjlkUwA257kOkDL_TbOoCRNci2IhPwQLWA01PF1Ef6SvOXpSQPXn1ZYPU7cHVx1pZchSa7TTuILL-SPuEbti41rSobW_7WQv4bNlJ-zMjtXUS2t0WX8cUxWsWu-TaqrfQ6Qeglki5OH_9z-36-6dGEaQpnSe-zAmdVdeMqRvS3nqXkqZSiKs_i8nz40ZWcCJzANreUw_tnxyhmh-dTPP5ntybnnKUPLjeTBSeUIj0tHSybRdkvhYP1xuZgCRmrtcN6LMePpVW6Y9dEJq-6ywj9OCfKI-kAq-KyAPtTygX22i52CwEo_i3-AXXbeLbgaI-jQYUeEc6IuniH_Cev-thcm1GOzkVGryEP64cQrXHR9kComWnuK4qht30nanHXkJHRuYM4uHjnP7ihFLPoUOoqioLL79SNA8p3C9Pw"}],
+                    "json":{"retailNetworkId":"4C25DB70-1DCE-11EB-A6EC-7B643829D650","recipient":"%number%","source":"WEB"},
+                    "method":"post",
+                    "ins":"+************"
+                  },
+                  {
+                    "url":"https://uzetut.com/index.php?route=account/login/sms&telephone=38-098-876-66-55",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "X-Requested-With":"XMLHttpRequest"}],
+                    "params":{"route":"account/login/sms", "telephone":"%number%"},
+                    "method":"get",
+                    "ins":"**-***-***-**-**"
+                  },
+                  {
+                    "url":"https://sushiya.ua/api/v1/user/auth",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Authorization":"Bearer demo", "Content-Type":"application/x-www-form-urlencoded", "Alt-Used":"sushiya.ua"}],
+                    "data":"phone=%number%&need_skeep=",
+                    "method":"post",
+                    "ins":"##**********"
+                  },
+                  {
+                    "url":"https://dr.smaki-maki.com/wp-admin/admin-ajax.php",
+                    "headers":[{"User-Agent":" ",  "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                    "data":"name=%ru_name%&phone=%number%&birthday=13.11.1997&password=%password%&password2=%re_password%&code=&action=register_user",
+                    "method":"post",
+                    "ins":"+** (***) *** ** **"
+                  },
+                  {
+                    "url":"https://yoki.ua/lviv/wp-admin/admin-ajax.php",
+                    "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest", "Alt-Used":"yoki.ua"}],
+                    "data":"first_name=%ru_name%8F&email=%email%&phone=%number%&input_check_send_sms=&password=%password%&password2=%re_password%&agree=on&action=register_user",
+                    "method":"post",
+                    "ins":"+** (***) *** ** **"
+                  },
+
+                  {
+                    "url":"https://sushiicons.com.ua/index.php?route=common/cart/ajaxgetcoderegister",
+                    "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest", "Alt-Used":"sushiicons.com.ua"}],
+                    "data":"firstname=%ru_name%&phone=%number%&birthday=1999-12-07",
+                    "method":"post",
+                    "ins":"+*** (**) ***-**-**"
+
+                  },
+                  {
                     "url": "https://alphasms.ua/ajax/register/",
                     "headers":[{"User-Agent":" ",  "Accept":"*/*", "Accept-Language":"en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
                     "data": "phone=%number%&password=%password%&captcha=XUzWAaxyWF6PKRmksifuTTL19-fJmGdvH-2Af2NNrkkSfoti03fQiS2uaOFpAdVbaja5aATdB7QXrcInNUUlr4v58k-3FJahknDTQjmmHYXViZLd2ZS9fpDWNirqnIArtLPKYtSdqpRDNkibffZ1MNLDArur-_qkxYLdOlnEh2UDqZ-svznUnOVuRTrKUisSzlv-4D3lRcSmzhjurdk6HXmVR_uDkUkBQNgxjm8DGzdA-aZRjP9A28mcT-PXdHRehDljBVzA0Ef31qyKatFGSJwEVGTtDPgtmyJ-Rv2K3VGwD-ZksJbyUVIAfPi5UKtnzAwM98l_cuiGtOTIqRJ4DjC8_Ff1lS-2FH_uCNd1AkkKD9cO8id0tt-sUU5BHL_VCktK-juSExtYSqwDkTDmu9sENTOrzfXSfwdnKTLDpRovtbz_uIifUXLc5yEC9wFbeD-kTWlxtp16QAsPHEZfCWB8DFrJQGHAHkDJcJQ2D-jSvV_dKlHD8kwE-&name=%name%&company=%name%&email=%email%&promocode=",
@@ -114,6 +157,13 @@
 
       "998":{
         "mix": [{
+                      "url":"https://api.bringo.uz/api/v1/register/phone",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json", "Authorization":"Basic undefined"}],
+                      "json":{"phone":"%number%"},
+                      "method":"post",
+                      "ins":"+************"
+                  },
+                  {
                      "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
                      "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
                      "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+998","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
@@ -152,6 +202,13 @@
                    }],
         "calls": [],
         "sms": [{
+                      "url":"https://api.bringo.uz/api/v1/register/phone",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json", "Authorization":"Basic undefined"}],
+                      "json":{"phone":"%number%"},
+                      "method":"post",
+                      "ins":"+************"
+                  },
+                  {
                      "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
                      "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
                      "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+998","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
@@ -192,20 +249,7 @@
       },
 
       "375":{
-          "mix": [{
-                      "url": "https://sosedi.by/local/api/smsSend.php",
-                      "headers": [{"User-Agent": " ", "Accept": "application/json, text/plain, */*","Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8"}],
-                      "json": {"phone":"%number%"},
-                      "method": "post",
-                      "ins": "+*** (**) *******"
-                    },
-                    {
-                      "url": "https://api.av.by/auth/phone/sign-up",
-                      "headers": [{"User-Agent": " ", "Accept": "*/*","Accept-Language": "en-US,en;q=0.5","x-device-type":"web.desktop","Content-Type":"application/json"}],
-                      "json": {"googleRecaptcha2InvisibleToken":"03AEkXODBmORK4JGwdPTv3G5zPF-BC85LZoBGwstW5Axb_vUvrkUv2f9b-aPfD-nQfMOq3wb7rZZIZSgYRPfv0T-lnHU8Oj8zUmca6k0ce0CLz7sM_Qs32fU-G1b0Rk9CYjsHaZsm42gkGiI3qLmy5r-jpCiv0-9uxO3Gc5w1rsE_tsCQ92dcyWxf8hbPNcdG0ic4T_p9XFvg7QSOSD_lhTlxEYJYiAGnxU9RM32Xo2sbov3q51lLkxiybfYUOFHC6lZBPLG3i57bMh9_5EH3LcLiV3YpSWlf-4vpyAfBo3-qtu61cBDQc5zdeY8O1rKyQzgCqfpAtKfwpyBs6855oqprga-rfLMU7qu20dRW7vBE-uJcZknEyopNBvG8Ww5LxT23-ZLC5wscuyggMUa0k4MmCNuaUxXe32z2L9WqCNL4P4fjlg9oD-_oNpp252CGrsewHSNHnY15K7R4ADvMzWhNqHgseQ9SikXsjYl1lsKFbL2uD1dXzYOMB2X9DKsmB7fJgx8fzwUk1","name":"%ru_name%","password":"%password%","phone":{"country":1,"number":"%number%"},"userEula":{"accepted":true}},
-                      "method": "post",
-                      "ins": "###*********"
-                    }],
+          "mix": [],
 
           "calls": [],
 
@@ -224,11 +268,38 @@
                       "ins": "###*********"
                     }
             ]
-      },
+          },
 
 
       "7":{
          "mix": [{
+                       "url":"https://xn--80aikcmnyq9bye.xn--p1ai/index.php?route=extension/module/sms_reg/frn",
+                       "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"&phone=%number%&method=voice-password",
+                       "method":"post",
+                       "ins":"***********"
+                     },
+                     {
+                       "url":"https://bryansk.chibbis.ru/account/requestverificationcode",
+                       "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"PhoneNumber=%number%&ResendToken=&__RequestVerificationToken=tqqxzkAjXlgbCfiVYWjiP2MssLz6JRzJfOW77zXEBEjLpYSZy1POGtBktbvsqT6Q2NaJsjz6VxAirBHTtdpYsSLon6A1&g-recaptcha-response=",
+                       "method":"post",
+                       "ins":"+*(***) ***-****"
+                     },
+                     {
+                       "url":"https://dostavka-cvetov-40.ru/ajax/ajax_zvonok/",
+                       "headers": [{"User-Agent": " ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "method":"post",
+                       "data":"phone=%number%&name=%ru_name%&comment=undefined",
+                       "ins":"+***********"
+                     },
+                     {
+                       "url":"https://kupi-buket40.ru/assets/components/ajaxform/action.php",
+                       "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"modal-phone=%number%&agree=on&af_action=2d3e42bf2aed1fdf1224dd52a1e32edd&pageId=1",
+                       "ins":"+***********"
+                     },
+                     {
                       "url": "https://id.x5.ru/auth/realms/ssox5id/login-actions/authenticate?session_code=yqGSnHBYsroCO52ZiyZeexjJknj2TkmJaeR9nuAyyZk&execution=23bc1ac5-165b-49e7-840a-0c4d7d955c42&client_id=tc5_web&tab_id=6h0qs1GqTkI",
                       "headers": [{"User-Agent": " ", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Content-Type": "application/x-www-form-urlencoded"}],
                       "data": "username=%number%&rememberMe=on",
@@ -307,6 +378,91 @@
                      "ins": "+*(***)-***-**-**"
                    },
                    {
+                     "url":"https://bryansk.kvikfud.ru/?action=auth",
+                     "headers": [{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data": "CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number&PASSWORD=%password%&PASSWORD2=%re_password%",
+                     "method": "post",
+                    "ins": "+* (***) ***-**-**"
+               },
+               {
+                     "url":"https://3332222.ru/phone/validate",
+                     "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/json", "X-Requested-With":"XMLHttpRequest", "x-csrf-token":"mDpE2iRI-0rHQ4yFp8lzblCXnjUvNwrhFIjk"}],
+                     "json":{"phone":"%number%"},
+                     "method":"post",
+                     "ins":"+* (***) ***-**-** "
+               },
+               {
+                     "url":"https://spb.aqualife.ru/ajax/sms.php",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"phone=%number%&action=send",
+                     "method":"post",
+                     "ins":"+*(***) ***-****"
+               },
+               {
+                     "url":"https://spb.aqualife.ru/auth/?register=yes",
+                     "headers":[{"User-Agent":" ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Content-Type":"application/x-www-form-urlencoded"}],
+                     "data":"AUTH_FORM=Y&TYPE=REGISTRATION&USER_LOGIN=%email%&UF_USER_TYPE=0&USER_LAST_NAME=%ru_name%&USER_NAME=%ru_name%&USER_SECOND_NAME=%ru_name%&USER_PHONE_NUMBER=%number%&USER_EMAIL=%email%&USER_PASSWORD=%password%&USER_CONFIRM_PASSWORD=%re_password%%&Register=%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+                     "method":"post",
+                     "ins":"+*(***) ***-****"
+               },
+               {
+                     "url":"https://rollserv.ru/user/NewUser/?async=json",
+                     "headers":[{"User-Agent":" ", "Accept":"text/plain, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"type=2&ext%5B2%5D%5B1%5D=Namir&ext%5B2%5D%5B2%5D=&ext%5B2%5D%5B3%5D=&user%5Bcellphone%5D=%number%&user%5Bi_agree%5D=on",
+                     "method":"post",
+                     "ins":"+***********"
+
+               },
+               {
+                     "url":"https://chacha-kaluga.ru/index.php?cust_login=yes",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"action=sendcode&login=%number%",
+                     "method":"post",
+                     "ins":"+***********"
+               },
+               {
+                     "url":"https://ufa.vasya1.ru/sales/voskresnaya-aktsiya-odin-khorosho-a-dva-luchshe/?action=auth",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number%&PASSWORD=%password%&PASSWORD2=%re_password%",
+                     "method":"post",
+                     "ins":"+* (***) ***-**-**"
+               },
+               {
+                     "url":"https://www.panpizza.ru/index.php?route=account/customer/sendSMSCode",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/x-www-form-urlencoded;charset=utf-8"}],
+                     "data":"telephone=&telephone_t=8%number%&recaptchaToken=",
+                     "method":"post",
+                     "ins":"#**********"
+               },
+               {
+                     "url":"https://xn--80aikcmnyq9bye.xn--p1ai/index.php?route=extension/module/sms_reg/frn",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"&phone=%number%&method=sms",
+                     "method":"post",
+                     "ins":"***********"
+               },
+               {
+                     "url":"https://sooshiroom.ru/auth/login",
+                     "headers":[{"User-Agent":" ", "Accept":"*/*", "Checksum":787, "Content-Type":"text/plain;charset=UTF-8"}],
+                     "json":{"phone":"%number%","code":"","needCode":true,"meta":{"companySlug":""}},
+                     "method":"post",
+                     "ins":"+***********"
+               },
+               {
+                     "url":"https://ufa.bulkaman.ru/?action=auth",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                     "data":"CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number%&PASSWORD=%re_password%R&PASSWORD2=%password%&CAPTCHA=EK3MB&captcha_sid=a04d55d15cb23566dddae7d0ee717353",
+                     "method":"post",
+                     "ins":"+* (***) ***-**-**"
+               },
+               {
+                     "url":"https://www.ollis.ru/gql",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
+                     "json":{"query":"mutation sendPhone($domain:ID!,$phone:String!,$recaptcha:String){phone(number:$phone,region:$domain,recaptcha:$recaptcha){token error{code message}}}","variables":{"domain":"spb","phone":"%number%","recaptcha":"03AEkXODCz4Ua9-Xs0PGH1M47NSLAZ07j2f737ZCpM1zZCQi79KHkGx4b2CpK5ci-WMWopm0-S9D9AzEBhaoMCX10RJ-of7Y_ldkMWhXB7-2A1Tc0Zrm17JJ05pzoNtqS9Hi_z1TSTMaO1PY6lDH9HJWF-2OhVXSzbg-8MMizP0QJqI2Oz1lYt_LK_9MlhhEWTNhXBPAY98PfBX68iPgB4PBHsXBXVqZaAJ_B-Cr4M9Sd22Dx9xRt3ztDPiPJXOYRiY-dO-aYB8_6AG9q1iVZxi1Sq9oGronrA3Rt_M-jsRozrnPBXN0owA-35sSXSOSGXsOlgJGRUQ39QMNZwIcprT2bWa2Ir7p7Ky-h35MHNId1tskY4DrVbXtfOaoubfpti-A02ROIPKWHdl33oWqcVCAh4n3h20X05_JZX6L0nr09Ec2-FkX8Kt37rEPyYaf2f7r-YHb1nP5N94_9eCKQ19yU09Nkoh4EYp6KPy2RdgxD7PARsiT_p_1Z2_t1DY5H4XB2SQ2z2273Y"}},
+                     "method":"post",
+                     "ins":"***********"
+               },
+               {
                     "url": "https://alphasms.ua/ajax/register/",
                     "headers":[{"User-Agent":" ",  "Accept":"*/*", "Accept-Language":"en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
                     "data": "phone=%number%&password=%password%&captcha=XUzWAaxyWF6PKRmksifuTTL19-fJmGdvH-2Af2NNrkkSfoti03fQiS2uaOFpAdVbaja5aATdB7QXrcInNUUlr4v58k-3FJahknDTQjmmHYXViZLd2ZS9fpDWNirqnIArtLPKYtSdqpRDNkibffZ1MNLDArur-_qkxYLdOlnEh2UDqZ-svznUnOVuRTrKUisSzlv-4D3lRcSmzhjurdk6HXmVR_uDkUkBQNgxjm8DGzdA-aZRjP9A28mcT-PXdHRehDljBVzA0Ef31qyKatFGSJwEVGTtDPgtmyJ-Rv2K3VGwD-ZksJbyUVIAfPi5UKtnzAwM98l_cuiGtOTIqRJ4DjC8_Ff1lS-2FH_uCNd1AkkKD9cO8id0tt-sUU5BHL_VCktK-     juSExtYSqwDkTDmu9sENTOrzfXSfwdnKTLDpRovtbz_uIifUXLc5yEC9wFbeD-kTWlxtp16QAsPHEZfCWB8DFrJQGHAHkDJcJQ2D-jSvV_dKlHD8kwE-&name=%name%&company=%name%&email=%email%&promocode=",
@@ -854,14 +1010,6 @@
                 },
 
                 {
-                  "url":"https://www.vprok.ru/mobile/webapi/v1/auth/request_token",
-                  "headers":[{"User-Agent": " ", "Accept": "*/*"}],
-                  "json":{"phone":"%number%"},
-                  "method":"post",
-                  "ins":"***********"
-
-                },
-                {
                   "url": "https://stockmann.ru/ajax/?controller=user&action=registerUser&surname=asd&name=%name%&phone=%number%&email=%email%&password=%password%&password_confirm=%re_password%&subscribe_email=true&token=03AEkXODA6lVo8qYQhs0_2c-bVicvORtpaeRk81m7K64YXuqaK4o2RTvYBUf6s-7KoBLWyNAPbrrX785ONYwCWk3HiSJc1fCH1dlRqbtqvBc55sJvQ0-jETNrKB5WwWe0ZOZjMTNLpQB4-GGrHxNQOOIfthrsgL8MuhuRomVLdM0OWnsSZmMz6AVz9TVizSNPAYPjzxNwDB9To7D51vpBCVt2egtBsb9i26MDFyIibXKdegGfEmJTVpZNG0Ny_YwmgLwhYAx8OpkKi8Uu0crcTZj11SCX8AS_qRUdte_m-r2fG804xb10hCi35plrum892krOXtWwzyF2UQ2jhw43UCsue7nkg7b1j1ecz4_9lxTRSCVJO5v1qlDoE55KZJIep_jUFEKS7giU_BSMypE-F5HiXSvaTu_X02Whk590h2DJzjpoN39xzajmUvMtm4X7YXP6y3NfEcmApapxJwCtAuXUpQ6oOzs187xKymGl0XGP7ZZdRd8a2H8PFW8ZPf-YngN8u6fx-r2GD",
                   "headers": [{"User-Agent": " ", "Accept": "application/json, text/plain, */*","Accept-Language": "en-US,en;q=0.5"}],
                   "string":"",
@@ -870,6 +1018,33 @@
                }],
 
          "calls": [{
+                       "url":"https://xn--80aikcmnyq9bye.xn--p1ai/index.php?route=extension/module/sms_reg/frn",
+                       "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"&phone=%number%&method=voice-password",
+                       "method":"post",
+                       "ins":"***********"
+                     },
+                     {
+                       "url":"https://bryansk.chibbis.ru/account/requestverificationcode",
+                       "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"PhoneNumber=%number%&ResendToken=&__RequestVerificationToken=tqqxzkAjXlgbCfiVYWjiP2MssLz6JRzJfOW77zXEBEjLpYSZy1POGtBktbvsqT6Q2NaJsjz6VxAirBHTtdpYsSLon6A1&g-recaptcha-response=",
+                       "method":"post",
+                       "ins":"+*(***) ***-****"
+                     },
+                     {
+                       "url":"https://dostavka-cvetov-40.ru/ajax/ajax_zvonok/",
+                       "headers": [{"User-Agent": " ", "Accept":"*/*", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "method":"post",
+                       "data":"phone=%number%&name=%ru_name%&comment=undefined",
+                       "ins":"+***********"
+                     },
+                     {
+                       "url":"https://kupi-buket40.ru/assets/components/ajaxform/action.php",
+                       "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                       "data":"modal-phone=%number%&agree=on&af_action=2d3e42bf2aed1fdf1224dd52a1e32edd&pageId=1",
+                       "ins":"+***********"
+                     },
+                     {
                       "url": "https://id.x5.ru/auth/realms/ssox5id/login-actions/authenticate?session_code=yqGSnHBYsroCO52ZiyZeexjJknj2TkmJaeR9nuAyyZk&execution=23bc1ac5-165b-49e7-840a-0c4d7d955c42&client_id=tc5_web&tab_id=6h0qs1GqTkI",
                       "headers": [{"User-Agent": " ", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Content-Type": "application/x-www-form-urlencoded"}],
                       "data": "username=%number%&rememberMe=on",
@@ -950,6 +1125,91 @@
                 ],
 
           "sms":[{
+                      "url":"https://bryansk.kvikfud.ru/?action=auth",
+                      "headers": [{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data": "CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number&PASSWORD=%password%&PASSWORD2=%re_password%",
+                      "method": "post",
+                      "ins":"+* (***) ***-**-**"
+                },
+                {
+                      "url":"https://3332222.ru/phone/validate",
+                      "headers":[{"User-Agent":" ", "Accept":"*/*", "Content-Type":"application/json", "X-Requested-With":"XMLHttpRequest", "x-csrf-token":"mDpE2iRI-0rHQ4yFp8lzblCXnjUvNwrhFIjk"}],
+                      "json":{"phone":"%number%"},
+                      "method":"post",
+                      "ins":"+* (***) ***-**-** "
+                },
+                {
+                      "url":"https://spb.aqualife.ru/ajax/sms.php",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"phone=%number%&action=send",
+                      "method":"post",
+                      "ins":"+*(***) ***-****"
+                },
+                {
+                      "url":"https://spb.aqualife.ru/auth/?register=yes",
+                      "headers":[{"User-Agent":" ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Content-Type":"application/x-www-form-urlencoded"}],
+                      "data":"AUTH_FORM=Y&TYPE=REGISTRATION&USER_LOGIN=%email%&UF_USER_TYPE=0&USER_LAST_NAME=%ru_name%&USER_NAME=%ru_name%&USER_SECOND_NAME=%ru_name%&USER_PHONE_NUMBER=%number%&USER_EMAIL=%email%&USER_PASSWORD=%password%&USER_CONFIRM_PASSWORD=%re_password%%&Register=%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+                      "method":"post",
+                      "ins":"+*(***) ***-****"
+                },
+                {
+                      "url":"https://rollserv.ru/user/NewUser/?async=json",
+                      "headers":[{"User-Agent":" ", "Accept":"text/plain, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"type=2&ext%5B2%5D%5B1%5D=Namir&ext%5B2%5D%5B2%5D=&ext%5B2%5D%5B3%5D=&user%5Bcellphone%5D=%number%&user%5Bi_agree%5D=on",
+                      "method":"post",
+                      "ins":"+***********"
+
+                },
+                {
+                      "url":"https://chacha-kaluga.ru/index.php?cust_login=yes",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"action=sendcode&login=%number%",
+                      "method":"post",
+                      "ins":"+***********"
+                },
+                {
+                      "url":"https://ufa.vasya1.ru/sales/voskresnaya-aktsiya-odin-khorosho-a-dva-luchshe/?action=auth",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number%&PASSWORD=%password%&PASSWORD2=%re_password%",
+                      "method":"post",
+                      "ins":"+* (***) ***-**-**"
+                },
+                {
+                      "url":"https://www.panpizza.ru/index.php?route=account/customer/sendSMSCode",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/x-www-form-urlencoded;charset=utf-8"}],
+                      "data":"telephone=&telephone_t=8%number%&recaptchaToken=",
+                      "method":"post",
+                      "ins":"#**********"
+                },
+                {
+                      "url":"https://xn--80aikcmnyq9bye.xn--p1ai/index.php?route=extension/module/sms_reg/frn",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"&phone=%number%&method=sms",
+                      "method":"post",
+                      "ins":"***********"
+                },
+                {
+                      "url":"https://sooshiroom.ru/auth/login",
+                      "headers":[{"User-Agent":" ", "Accept":"*/*", "Checksum":787, "Content-Type":"text/plain;charset=UTF-8"}],
+                      "json":{"phone":"%number%","code":"","needCode":true,"meta":{"companySlug":""}},
+                      "method":"post",
+                      "ins":"+***********"
+                },
+                {
+                      "url":"https://ufa.bulkaman.ru/?action=auth",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/javascript, */*; q=0.01", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                      "data":"CSRF=&ACTION=REGISTER&MODE=PHONE&PHONE=%number%&PASSWORD=%re_password%R&PASSWORD2=%password%&CAPTCHA=EK3MB&captcha_sid=a04d55d15cb23566dddae7d0ee717353",
+                      "method":"post",
+                      "ins":"+* (***) ***-**-**"
+                },
+                {
+                      "url":"https://www.ollis.ru/gql",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
+                      "json":{"query":"mutation sendPhone($domain:ID!,$phone:String!,$recaptcha:String){phone(number:$phone,region:$domain,recaptcha:$recaptcha){token error{code message}}}","variables":{"domain":"spb","phone":"%number%","recaptcha":"03AEkXODCz4Ua9-Xs0PGH1M47NSLAZ07j2f737ZCpM1zZCQi79KHkGx4b2CpK5ci-WMWopm0-S9D9AzEBhaoMCX10RJ-of7Y_ldkMWhXB7-2A1Tc0Zrm17JJ05pzoNtqS9Hi_z1TSTMaO1PY6lDH9HJWF-2OhVXSzbg-8MMizP0QJqI2Oz1lYt_LK_9MlhhEWTNhXBPAY98PfBX68iPgB4PBHsXBXVqZaAJ_B-Cr4M9Sd22Dx9xRt3ztDPiPJXOYRiY-dO-aYB8_6AG9q1iVZxi1Sq9oGronrA3Rt_M-jsRozrnPBXN0owA-35sSXSOSGXsOlgJGRUQ39QMNZwIcprT2bWa2Ir7p7Ky-h35MHNId1tskY4DrVbXtfOaoubfpti-A02ROIPKWHdl33oWqcVCAh4n3h20X05_JZX6L0nr09Ec2-FkX8Kt37rEPyYaf2f7r-YHb1nP5N94_9eCKQ19yU09Nkoh4EYp6KPy2RdgxD7PARsiT_p_1Z2_t1DY5H4XB2SQ2z2273Y"}},
+                      "method":"post",
+                      "ins":"***********"
+                },
+                {
                      "url": "https://alphasms.ua/ajax/register/",
                      "headers":[{"User-Agent":" ",  "Accept":"*/*", "Accept-Language":"en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
                      "data": "phone=%number%&password=%password%&captcha=XUzWAaxyWF6PKRmksifuTTL19-fJmGdvH-2Af2NNrkkSfoti03fQiS2uaOFpAdVbaja5aATdB7QXrcInNUUlr4v58k-3FJahknDTQjmmHYXViZLd2ZS9fpDWNirqnIArtLPKYtSdqpRDNkibffZ1MNLDArur-_qkxYLdOlnEh2UDqZ-svznUnOVuRTrKUisSzlv-4D3lRcSmzhjurdk6HXmVR_uDkUkBQNgxjm8DGzdA-aZRjP9A28mcT-PXdHRehDljBVzA0Ef31qyKatFGSJwEVGTtDPgtmyJ-Rv2K3VGwD-ZksJbyUVIAfPi5UKtnzAwM98l_cuiGtOTIqRJ4DjC8_Ff1lS-2FH_uCNd1AkkKD9cO8id0tt-sUU5BHL_VCktK-     juSExtYSqwDkTDmu9sENTOrzfXSfwdnKTLDpRovtbz_uIifUXLc5yEC9wFbeD-kTWlxtp16QAsPHEZfCWB8DFrJQGHAHkDJcJQ2D-jSvV_dKlHD8kwE-&name=%name%&company=%name%&email=%email%&promocode=",
@@ -1497,14 +1757,6 @@
                  },
 
                  {
-                   "url":"https://www.vprok.ru/mobile/webapi/v1/auth/request_token",
-                   "headers":[{"User-Agent": " ", "Accept": "*/*"}],
-                   "json":{"phone":"%number%"},
-                   "method":"post",
-                   "ins":"***********"
-
-                 },
-                 {
                    "url": "https://stockmann.ru/ajax/?controller=user&action=registerUser&surname=asd&name=%name%&phone=%number%&email=%email%&password=%password%&password_confirm=%re_password%&subscribe_email=true&token=03AEkXODA6lVo8qYQhs0_2c-bVicvORtpaeRk81m7K64YXuqaK4o2RTvYBUf6s-7KoBLWyNAPbrrX785ONYwCWk3HiSJc1fCH1dlRqbtqvBc55sJvQ0-jETNrKB5WwWe0ZOZjMTNLpQB4-GGrHxNQOOIfthrsgL8MuhuRomVLdM0OWnsSZmMz6AVz9TVizSNPAYPjzxNwDB9To7D51vpBCVt2egtBsb9i26MDFyIibXKdegGfEmJTVpZNG0Ny_YwmgLwhYAx8OpkKi8Uu0crcTZj11SCX8AS_qRUdte_m-r2fG804xb10hCi35plrum892krOXtWwzyF2UQ2jhw43UCsue7nkg7b1j1ecz4_9lxTRSCVJO5v1qlDoE55KZJIep_jUFEKS7giU_BSMypE-F5HiXSvaTu_X02Whk590h2DJzjpoN39xzajmUvMtm4X7YXP6y3NfEcmApapxJwCtAuXUpQ6oOzs187xKymGl0XGP7ZZdRd8a2H8PFW8ZPf-YngN8u6fx-r2GD",
                    "headers": [{"User-Agent": " ", "Accept": "application/json, text/plain, */*","Accept-Language": "en-US,en;q=0.5"}],
                    "string":"",
@@ -1515,29 +1767,7 @@
       },
 
       "81":{
-        "mix":[{
-                   "url":"https://my.telegram.org/auth/send_password",
-                   "headers":[{"User-Agent":" ",  "DNT":"1"}],
-                   "data":"phone=%number%",
-                   "method":"post",
-                   "ins":"+************"
-                 },
-                 {
-                   "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
-                   "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
-                   "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+81","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
-                   "method":"post",
-                   "ins": "##*********"
-                 },
-
-                 {
-                   "url":"https://skorozvon.ru/main",
-                   "headers":[{"User-Agent": " "}],
-                   "params":{"phone":"%number%"},
-                   "method":"get",
-                   "ins":"***********"
-
-                 }],
+        "mix":[],
 
         "calls":[],
 
