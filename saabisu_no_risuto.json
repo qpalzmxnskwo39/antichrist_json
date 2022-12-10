@@ -166,7 +166,7 @@
                   {
                       "url":"https://api.express24.uz/client/v4/authentication/code",
                       "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
-                      "json":{"phone":""},
+                      "json":{"phone":"%number%"},
                       "method":"post",
                       "ins":"+*** ** *** ** **"
                   },
@@ -246,7 +246,7 @@
                    {
                      "url":"https://api.express24.uz/client/v4/authentication/code",
                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
-                     "json":{"phone":""},
+                     "json":{"phone":"%number%"},
                      "method":"post",
                      "ins":"+*** ** *** ** **"
                    },
