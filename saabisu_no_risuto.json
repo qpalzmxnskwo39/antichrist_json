@@ -164,6 +164,13 @@
                       "ins":"+************"
                   },
                   {
+                      "url":"https://api.express24.uz/client/v4/authentication/code",
+                      "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
+                      "json":{"phone":""},
+                      "method":"post",
+                      "ins":"+*** ** *** ** **"
+                  },
+                  {
                      "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
                      "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
                      "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+998","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
@@ -236,8 +243,13 @@
                      "method":"post",
                      "ins": "+************"
                    },
-
-
+                   {
+                     "url":"https://api.express24.uz/client/v4/authentication/code",
+                     "headers":[{"User-Agent":" ", "Accept":"application/json, text/plain, */*", "Content-Type":"application/json"}],
+                     "json":{"phone":""},
+                     "method":"post",
+                     "ins":"+*** ** *** ** **"
+                   },
                    {
                      "url":"https://my.telegram.org/auth/send_password",
                      "headers":[{"User-Agent":" ",  "DNT":"1"}],
