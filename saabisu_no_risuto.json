@@ -745,7 +745,20 @@
       },
 
       "375":{
-          "mix": [],
+          "mix": [{
+                      "url": "https://sosedi.by/local/api/smsSend.php",
+                      "headers": [{"User-Agent": " ", "Accept": "application/json, text/plain, */*","Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8"}],
+                      "json": {"phone":"%number%"},
+                      "method": "post",
+                      "ins": "+*** (**) *******"
+                    },
+                    {
+                      "url": "https://api.av.by/auth/phone/sign-up",
+                      "headers": [{"User-Agent": " ", "Accept": "*/*","Accept-Language": "en-US,en;q=0.5","x-device-type":"web.desktop","Content-Type":"application/json"}],
+                      "json": {"googleRecaptcha2InvisibleToken":"03AEkXODBmORK4JGwdPTv3G5zPF-BC85LZoBGwstW5Axb_vUvrkUv2f9b-aPfD-nQfMOq3wb7rZZIZSgYRPfv0T-lnHU8Oj8zUmca6k0ce0CLz7sM_Qs32fU-G1b0Rk9CYjsHaZsm42gkGiI3qLmy5r-jpCiv0-9uxO3Gc5w1rsE_tsCQ92dcyWxf8hbPNcdG0ic4T_p9XFvg7QSOSD_lhTlxEYJYiAGnxU9RM32Xo2sbov3q51lLkxiybfYUOFHC6lZBPLG3i57bMh9_5EH3LcLiV3YpSWlf-4vpyAfBo3-qtu61cBDQc5zdeY8O1rKyQzgCqfpAtKfwpyBs6855oqprga-rfLMU7qu20dRW7vBE-uJcZknEyopNBvG8Ww5LxT23-ZLC5wscuyggMUa0k4MmCNuaUxXe32z2L9WqCNL4P4fjlg9oD-_oNpp252CGrsewHSNHnY15K7R4ADvMzWhNqHgseQ9SikXsjYl1lsKFbL2uD1dXzYOMB2X9DKsmB7fJgx8fzwUk1","name":"%ru_name%","password":"%password%","phone":{"country":1,"number":"%number%"},"userEula":{"accepted":true}},
+                      "method": "post",
+                      "ins": "###*********"
+                    }],
 
           "calls": [],
 
