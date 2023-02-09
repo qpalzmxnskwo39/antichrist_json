@@ -30,6 +30,76 @@
                       "ins": "###*********"
               }]
       },
+
+      "371":{
+        "mix":[
+          {
+              "url": "https://given.lv/lv/account/register/step2_sms",
+              "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+              "data": "telephone_code=%2B371&telephone=%number%",
+              "method": "post",
+              "ins":"###********"
+            },
+            {
+                "url": "https://www.tele2.lv/ru/superpiedavajums/index.php?cmd=popup&cid=11493&contpop_send=CH987sax&tel=%number%&ismbb=1",
+                "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest"}],
+                "string": "",
+                "method": "get",
+                "ins":"###********"
+                },
+
+                {
+                    "url": "https://lmt.lmt.lv/api/contact/v1/scs-nusa",
+                    "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","X-Requested-With":"XMLHttpRequest","X-CSRF-TOKEN":"EktaMPJfRiggP2Um1G4tkE9kiWy6ak2DGQif6mCj","Content-Type":"application/json","X-XSRF-TOKEN":"eyJpdiI6IlhjczVHWnJDMUpndDg5VXpPMlR6dFE9PSIsInZhbHVlIjoiclRwZFZJRzJPVTMwMmlMR05RR2svQ1dRSDFRWVhiS2gyNXN4K2w2NWVmR0U0SDRkUjB2bVZXQWlrUHJmWjNYUDE5bHFZYVhkRXJ6QVM5SlZzUFRHUTdYbU80dlBpWUJYQTRQeHBpek5GNDU2YStyUldpQnR0SmFVOFY2WGpnUXAiLCJtYWMiOiIyZWYyYzc5YTQzOGExOWE5OTFlZmUzMDkyZjgwOTc0YWFkMjI5ODZiZTg0OTRjMjIxMDdmNDA1MGUzNmIzYTRiIiwidGFnIjoiIn0="}],
+                    "json": {"name":"%name%","phone":"%number%","email":"","description":"","checkbox":true,"h_value":""},
+                    "method": "post",
+                    "ins":"###********"
+                  },
+                  {
+                      "url": "https://www.dolphnet.lv/pieteikumi.php",
+                      "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+                      "json": {"name":"%name%","email":"%email%","phone":"%number%","text":"call me","agreement":true,"serviceAddress":"VĀRKAVAS NOVADS, ROŽKALNU PAGASTS, RIMICĀNI, AGRO","addressId":"169079","selectedServices":"Bezvadu internets 100Mbit (5Ghz radioreleju līnija)","formName":"apply"},
+                      "method": "post",
+                      "ins":"+***********"
+                      }
+
+
+        ],
+        "calls":[ {
+            "url": "https://www.tele2.lv/ru/superpiedavajums/index.php?cmd=popup&cid=11493&contpop_send=CH987sax&tel=%number%&ismbb=1",
+            "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest"}],
+            "string": "",
+            "method": "get",
+            "ins":"###********"
+            },
+
+            {
+                "url": "https://lmt.lmt.lv/api/contact/v1/scs-nusa",
+                "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","X-Requested-With":"XMLHttpRequest","X-CSRF-TOKEN":"EktaMPJfRiggP2Um1G4tkE9kiWy6ak2DGQif6mCj","Content-Type":"application/json","X-XSRF-TOKEN":"eyJpdiI6IlhjczVHWnJDMUpndDg5VXpPMlR6dFE9PSIsInZhbHVlIjoiclRwZFZJRzJPVTMwMmlMR05RR2svQ1dRSDFRWVhiS2gyNXN4K2w2NWVmR0U0SDRkUjB2bVZXQWlrUHJmWjNYUDE5bHFZYVhkRXJ6QVM5SlZzUFRHUTdYbU80dlBpWUJYQTRQeHBpek5GNDU2YStyUldpQnR0SmFVOFY2WGpnUXAiLCJtYWMiOiIyZWYyYzc5YTQzOGExOWE5OTFlZmUzMDkyZjgwOTc0YWFkMjI5ODZiZTg0OTRjMjIxMDdmNDA1MGUzNmIzYTRiIiwidGFnIjoiIn0="}],
+                "json": {"name":"%name%","phone":"%number%","email":"","description":"","checkbox":true,"h_value":""},
+                "method": "post",
+                "ins":"###********"
+              },
+              {
+                  "url": "https://www.dolphnet.lv/pieteikumi.php",
+                  "headers": [{"User-Agent": " ", "Accept":"application/json", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json"}],
+                  "json": {"name":"%name%","email":"%email%","phone":"%number%","text":"call me","agreement":true,"serviceAddress":"VĀRKAVAS NOVADS, ROŽKALNU PAGASTS, RIMICĀNI, AGRO","addressId":"169079","selectedServices":"Bezvadu internets 100Mbit (5Ghz radioreleju līnija)","formName":"apply"},
+                  "method": "post",
+                  "ins":"+***********"
+                  }
+
+           ],
+        "sms":[{
+            "url": "https://given.lv/lv/account/register/step2_sms",
+            "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded"}],
+            "data": "telephone_code=%2B371&telephone=%number%",
+            "method": "post",
+            "ins":"###********"
+            }]
+      },
+
+
+
       "380":{
         "mix":[{
               "url": "https://www.privat24.ua/http/?lang=en&pt=pt_16707490624140.31301796825041033&lang=en&xref=&fingerprint=c52b184f0b4c3e873d507b68c835f559-cyv3g2l3g",
@@ -1385,6 +1455,45 @@
                       "ins": "+*** (**) *******"
                     },
                     {
+                        "url": "https://vanille.by/ajax/userRegistration.php",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "returnUrl=https%3A%2F%2Fvanille.by%2Fglavnaya&username=%name%&phone=%number%",
+                        "method": "post",
+                        "ins":"+***(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://asmp.a1.by/asmp/registration-sendpin?t=r&phone=%number%&timer=180&_=1675601353830",
+                        "headers": [{"User-Agent": " ", "Accept": "text/plain, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest"}],
+                        "string": " ",
+                        "method": "get",
+                        "ins":"+***+**+***+**+**"
+                        },
+
+                    {
+                        "url": "https://mamont.by/bitrix/components/bxmaker/authuserphone.login/ajax.php",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.0566474e24e23198767e6ee0bfbf180c7ca9acd061eefac5cf5c15a776d02457&template=.default.fe97de9cba0b57dc5cda7619c7524e46d1d57ebae6b0d50d756395707e8ff6d8&siteId=s1&sessid=2e8b6cf2935a3433247c05d9791a95c4&method=sendCode&phone=%2B375332342311&registration=Y",
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+                    {
+                        "url": "https://www.oma.by/personal/user/login.php",
+                        "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8"}],
+                        "data": "bxajaxid=d8612733f94f12429d7ee70a32087115&AJAX_CALL=Y&PAGE_TYPE=REGISTER&PHONE=%number%&UF_SOGL_USER=Y&SET_REGISTER=Y",
+                        "method": "post",
+                        "ins":"+***+(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://client.taximaxim.by/ru-RU/site/send-code/",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","X-CSRF-Token":"p3Rws7oSZnS7-Gh0qenjzhx-H1rTcbucLRlwLRliolDSMjKCglceNfiXBTiZhKa8aQ5WFJ8Z1PRyVUlZSxXSKQ==","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "_csrf=p3Rws7oSZnS7-Gh0qenjzhx-H1rTcbucLRlwLRliolDSMjKCglceNfiXBTiZhKa8aQ5WFJ8Z1PRyVUlZSxXSKQ%3D%3D&LoginForm%5Borg%5D=maxim&LoginForm%5Bcountry%5D=BY&LoginForm%5BbaseId%5D=1419&LoginForm%5BsendCodeType%5D=0&LoginForm%5Bphone%5D=%number%&LoginForm%5Bagree%5D=1",
+                        "method": "post",
+                        "ins":"+***(**)***-**-**"
+                      },
+                    {
                         "url": "https://my.deal.by/remote/auth/register_customer?locale=ru",
                         "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5", "Content-Type":"application/json; charset=UTF-8", "X-Requested-With":"XMLHttpRequest", "X-CSRFToken":"3496310c62d34dceabe34fbfdcd0addd"}],
                         "json": {"phone":"%number%","otp":"","first_name":"%ru_name%","last_name":"ru_re_name","source":"header","subscription":true,"skip_name":false,"pow_complexity":"18:web.Fnhq_A.tLoig8WGeKpwcQBLj1SYDUlGIis","pow_prefix":"BQ2MVECY12ZTYVDOUDC5FSXCNGNKD4588VUX6QPLX2RG79WOSREEW3V4UJSYR89S.Fnhq_A.a5j6ieVWuQ20OICbfV2Z2LRPBso","pow_nonce":"000001850544001fbc7a5e7d981fd035"},
@@ -1528,6 +1637,45 @@
                       "method": "post",
                       "ins": "+*** (**) *******"
                     },
+                    {
+                        "url": "https://vanille.by/ajax/userRegistration.php",
+                        "headers": [{"User-Agent": " ", "Accept":"*/*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "returnUrl=https%3A%2F%2Fvanille.by%2Fglavnaya&username=%name%&phone=%number%",
+                        "method": "post",
+                        "ins":"+***(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://asmp.a1.by/asmp/registration-sendpin?t=r&phone=%number%&timer=180&_=1675601353830",
+                        "headers": [{"User-Agent": " ", "Accept":"text/plain, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5", "X-Requested-With":"XMLHttpRequest"}],
+                        "string": "",
+                        "method": "get",
+                        "ins":"+***+**+***+**+**"
+                        },
+
+                    {
+                        "url": "https://mamont.by/bitrix/components/bxmaker/authuserphone.login/ajax.php",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "parameters=YToxOntzOjEwOiJDQUNIRV9UWVBFIjtzOjE6IkEiO30%3D.0566474e24e23198767e6ee0bfbf180c7ca9acd061eefac5cf5c15a776d02457&template=.default.fe97de9cba0b57dc5cda7619c7524e46d1d57ebae6b0d50d756395707e8ff6d8&siteId=s1&sessid=2e8b6cf2935a3433247c05d9791a95c4&method=sendCode&phone=%2B375332342311&registration=Y",
+                        "method": "post",
+                        "ins":"+************"
+                        },
+
+                    {
+                        "url": "https://www.oma.by/personal/user/login.php",
+                        "headers": [{"User-Agent": " ", "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8"}],
+                        "data": "bxajaxid=d8612733f94f12429d7ee70a32087115&AJAX_CALL=Y&PAGE_TYPE=REGISTER&PHONE=%number%&UF_SOGL_USER=Y&SET_REGISTER=Y",
+                        "method": "post",
+                        "ins":"+***+(**)+***-**-**"
+                        },
+
+                    {
+                        "url": "https://client.taximaxim.by/ru-RU/site/send-code/",
+                        "headers": [{"User-Agent": " ", "Accept":"application/json, text/javascript, */*; q=0.01", "Accept-Language": "en-US,en;q=0.5","X-CSRF-Token":"p3Rws7oSZnS7-Gh0qenjzhx-H1rTcbucLRlwLRliolDSMjKCglceNfiXBTiZhKa8aQ5WFJ8Z1PRyVUlZSxXSKQ==","Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","X-Requested-With":"XMLHttpRequest"}],
+                        "data": "_csrf=p3Rws7oSZnS7-Gh0qenjzhx-H1rTcbucLRlwLRliolDSMjKCglceNfiXBTiZhKa8aQ5WFJ8Z1PRyVUlZSxXSKQ%3D%3D&LoginForm%5Borg%5D=maxim&LoginForm%5Bcountry%5D=BY&LoginForm%5BbaseId%5D=1419&LoginForm%5BsendCodeType%5D=0&LoginForm%5Bphone%5D=%number%&LoginForm%5Bagree%5D=1",
+                        "method": "post",
+                        "ins":"+***(**)***-**-**"
+                      },
                     {
                         "url": "https://tokiny.by/?ajax=1&task=sendVerificationCode",
                         "headers": [{"User-Agent": " ", "Accept":"application/json, text/plain, */*", "Accept-Language": "en-US,en;q=0.5","Content-Type":"application/json;charset=utf-8"}],
